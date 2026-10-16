@@ -1,0 +1,5437 @@
+{
+  "generatedAt": 1792186204242,
+  "generatedAtIso": "2026-10-16T21:30:04.242Z",
+  "timezone": "America/New_York",
+  "day": "2026-10-16",
+  "today": {
+    "closedTrades": 20,
+    "wins": 9,
+    "losses": 11,
+    "hitRatio": 0.45,
+    "netPnl": 7406.489159000003,
+    "trades": [
+      {
+        "symbol": "AVGO",
+        "strategy": "intraday/gapfade",
+        "quantity": 87,
+        "entryPrice": 339.453794,
+        "exitPrice": 337.1,
+        "pnl": -204.78007799999943,
+        "rMultiple": -0.4388300520116871,
+        "exitReason": "long · end of day",
+        "closedAt": 1792157720144,
+        "mode": "paper"
+      },
+      {
+        "symbol": "PINS",
+        "strategy": "intraday/vwap",
+        "quantity": 1345,
+        "entryPrice": 22.260803,
+        "exitPrice": 22.645494,
+        "pnl": 517.4093950000001,
+        "rMultiple": 1.915763210708999,
+        "exitReason": "long · end of day",
+        "closedAt": 1792157720259,
+        "mode": "paper"
+      },
+      {
+        "symbol": "PATH",
+        "strategy": "intraday/gapfade",
+        "quantity": 2241,
+        "entryPrice": 13.57,
+        "exitPrice": 13.06,
+        "pnl": 1142.9099999999996,
+        "rMultiple": 1.15909090909091,
+        "exitReason": "short · target",
+        "closedAt": 1792161320104,
+        "mode": "paper"
+      },
+      {
+        "symbol": "OKTA",
+        "strategy": "intraday/hour1-strict",
+        "quantity": 159,
+        "entryPrice": 191.48,
+        "exitPrice": 193.11,
+        "pnl": -259.1700000000038,
+        "rMultiple": -1.0516129032258144,
+        "exitReason": "short · stop",
+        "closedAt": 1792161620138,
+        "mode": "paper"
+      },
+      {
+        "symbol": "F",
+        "strategy": "intraday/hour1-strict",
+        "quantity": 1893,
+        "entryPrice": 12.74,
+        "exitPrice": 12.71,
+        "pnl": -56.78999999999879,
+        "rMultiple": -1,
+        "exitReason": "long · stop",
+        "closedAt": 1792164020107,
+        "mode": "paper"
+      },
+      {
+        "symbol": "SEDG",
+        "strategy": "intraday/vwap",
+        "quantity": 927,
+        "entryPrice": 32.67,
+        "exitPrice": 32.45,
+        "pnl": -203.93999999999895,
+        "rMultiple": -0.3928571428571392,
+        "exitReason": "long · closed below VWAP",
+        "closedAt": 1792166432022,
+        "mode": "paper"
+      },
+      {
+        "symbol": "MSFT",
+        "strategy": "intraday/aft-trend-strict",
+        "quantity": 57,
+        "entryPrice": 525.31614,
+        "exitPrice": 528.006842,
+        "pnl": -153.3700139999993,
+        "rMultiple": -1.010076355364016,
+        "exitReason": "short · stop",
+        "closedAt": 1792172720108,
+        "mode": "paper"
+      },
+      {
+        "symbol": "NVDA",
+        "strategy": "intraday/gapfade",
+        "quantity": 140,
+        "entryPrice": 216.83,
+        "exitPrice": 214.771428,
+        "pnl": -288.2000800000037,
+        "rMultiple": -1.0190950495049584,
+        "exitReason": "long · stop",
+        "closedAt": 1792173920221,
+        "mode": "paper"
+      },
+      {
+        "symbol": "SHOP",
+        "strategy": "intraday/aft-trend-strict",
+        "quantity": 180,
+        "entryPrice": 168.82,
+        "exitPrice": 170.2,
+        "pnl": -248.39999999999918,
+        "rMultiple": -1.0298507462686508,
+        "exitReason": "short · stop",
+        "closedAt": 1792174520141,
+        "mode": "paper"
+      },
+      {
+        "symbol": "HIMS",
+        "strategy": "intraday/gapfade",
+        "quantity": 1046,
+        "entryPrice": 29.099608,
+        "exitPrice": 27.7,
+        "pnl": 1463.9899680000008,
+        "rMultiple": 1.4423119728934288,
+        "exitReason": "short · target",
+        "closedAt": 1792177220189,
+        "mode": "paper"
+      },
+      {
+        "symbol": "MDB",
+        "strategy": "intraday/vwap",
+        "quantity": 17,
+        "entryPrice": 336,
+        "exitPrice": 338.48,
+        "pnl": -42.16000000000031,
+        "rMultiple": -0.32804232804233036,
+        "exitReason": "short · closed above VWAP",
+        "closedAt": 1792178131372,
+        "mode": "paper"
+      },
+      {
+        "symbol": "SOFI",
+        "strategy": "intraday/aft-trend-strict",
+        "quantity": 405,
+        "entryPrice": 14.41,
+        "exitPrice": 14.52,
+        "pnl": -44.54999999999977,
+        "rMultiple": -1,
+        "exitReason": "short · stop",
+        "closedAt": 1792179020111,
+        "mode": "paper"
+      },
+      {
+        "symbol": "TTD",
+        "strategy": "intraday/gapfade",
+        "quantity": 2318,
+        "entryPrice": 13.13,
+        "exitPrice": 12.19,
+        "pnl": 2178.920000000003,
+        "rMultiple": 4.947368421052651,
+        "exitReason": "short · target",
+        "closedAt": 1792179920111,
+        "mode": "paper"
+      },
+      {
+        "symbol": "U",
+        "strategy": "intraday/aft-trend-strict",
+        "quantity": 751,
+        "entryPrice": 40.5,
+        "exitPrice": 40.32,
+        "pnl": 135.17999999999978,
+        "rMultiple": 0.3913043478260856,
+        "exitReason": "short · end of day",
+        "closedAt": 1792180540736,
+        "mode": "paper"
+      },
+      {
+        "symbol": "CRM",
+        "strategy": "intraday/gapfade",
+        "quantity": 123,
+        "entryPrice": 246.34,
+        "exitPrice": 241.28,
+        "pnl": 622.3800000000003,
+        "rMultiple": 0.9844357976653728,
+        "exitReason": "short · end of day",
+        "closedAt": 1792180541319,
+        "mode": "paper"
+      },
+      {
+        "symbol": "ADBE",
+        "strategy": "intraday/gapfade",
+        "quantity": 120,
+        "entryPrice": 251.85,
+        "exitPrice": 244.73,
+        "pnl": 854.4000000000005,
+        "rMultiple": 1.568281938325995,
+        "exitReason": "short · end of day",
+        "closedAt": 1792180541434,
+        "mode": "paper"
+      },
+      {
+        "symbol": "SNOW",
+        "strategy": "intraday/late-strong",
+        "quantity": 19,
+        "entryPrice": 306.74,
+        "exitPrice": 306.78,
+        "pnl": -0.7599999999993088,
+        "rMultiple": -0.009779951100235664,
+        "exitReason": "short · end of day",
+        "closedAt": 1792180542226,
+        "mode": "paper"
+      },
+      {
+        "symbol": "RBLX",
+        "strategy": "intraday/gapfade",
+        "quantity": 602,
+        "entryPrice": 50.77,
+        "exitPrice": 49.34,
+        "pnl": 860.8599999999998,
+        "rMultiple": 1.4299999999999997,
+        "exitReason": "short · end of day",
+        "closedAt": 1792180542695,
+        "mode": "paper"
+      },
+      {
+        "symbol": "PLTR",
+        "strategy": "intraday/late-strong",
+        "quantity": 31,
+        "entryPrice": 185.56129,
+        "exitPrice": 186.146452,
+        "pnl": -18.140021999999902,
+        "rMultiple": -0.3465142031491503,
+        "exitReason": "short · end of day",
+        "closedAt": 1792180544380,
+        "mode": "paper"
+      },
+      {
+        "symbol": "APP",
+        "strategy": "intraday/gapfade",
+        "quantity": 110,
+        "entryPrice": 275.890909,
+        "exitPrice": 265.43,
+        "pnl": 1150.6999900000017,
+        "rMultiple": 2.031603053820571,
+        "exitReason": "short · end of day",
+        "closedAt": 1792180547711,
+        "mode": "paper"
+      }
+    ]
+  },
+  "rolling": {
+    "days": 5,
+    "closedTrades": 49,
+    "wins": 22,
+    "hitRatio": 0.4489795918367347,
+    "netPnl": 9909.699400000009
+  },
+  "summary": {
+    "viewMode": "paper",
+    "totalTrades": 49,
+    "wins": 22,
+    "losses": 27,
+    "hitRatio": 0.4489795918367347,
+    "netPnl": 9909.699400000012,
+    "grossProfit": 13598.059407000012,
+    "grossLoss": 3688.360007,
+    "avgWin": 618.0936094090914,
+    "avgLoss": 136.60592618518518,
+    "riskReward": 4.524647112096687,
+    "profitFactor": 3.6867494987454488,
+    "expectancyR": 1.480453805431166,
+    "maxDrawdownPct": 2.545123724736988,
+    "bySymbol": [
+      {
+        "symbol": "TTD",
+        "trades": 2,
+        "pnl": 1995.5600000000068
+      },
+      {
+        "symbol": "HIMS",
+        "trades": 1,
+        "pnl": 1463.9899680000008
+      },
+      {
+        "symbol": "APP",
+        "trades": 2,
+        "pnl": 1455.259990000001
+      },
+      {
+        "symbol": "MU",
+        "trades": 1,
+        "pnl": 1248.0200139999988
+      },
+      {
+        "symbol": "PATH",
+        "trades": 1,
+        "pnl": 1142.9099999999996
+      },
+      {
+        "symbol": "ADBE",
+        "trades": 2,
+        "pnl": 810.74
+      },
+      {
+        "symbol": "CRM",
+        "trades": 1,
+        "pnl": 622.3800000000003
+      },
+      {
+        "symbol": "RBLX",
+        "trades": 2,
+        "pnl": 613.9899999999994
+      },
+      {
+        "symbol": "RKLB",
+        "trades": 1,
+        "pnl": 598.4300000000006
+      },
+      {
+        "symbol": "INTC",
+        "trades": 1,
+        "pnl": 528.3797999999987
+      },
+      {
+        "symbol": "PINS",
+        "trades": 1,
+        "pnl": 517.4093950000001
+      },
+      {
+        "symbol": "SOFI",
+        "trades": 3,
+        "pnl": 479.5500000000001
+      },
+      {
+        "symbol": "AFRM",
+        "trades": 1,
+        "pnl": 369.30018400000154
+      },
+      {
+        "symbol": "META",
+        "trades": 1,
+        "pnl": 278.9200000000028
+      },
+      {
+        "symbol": "UNH",
+        "trades": 2,
+        "pnl": 237.4799479999997
+      },
+      {
+        "symbol": "ANET",
+        "trades": 2,
+        "pnl": 191.77007799999842
+      },
+      {
+        "symbol": "UBER",
+        "trades": 1,
+        "pnl": 169.69009399999985
+      },
+      {
+        "symbol": "U",
+        "trades": 1,
+        "pnl": 135.17999999999978
+      },
+      {
+        "symbol": "SNOW",
+        "trades": 1,
+        "pnl": -0.7599999999993088
+      },
+      {
+        "symbol": "PLTR",
+        "trades": 1,
+        "pnl": -18.140021999999902
+      },
+      {
+        "symbol": "NFLX",
+        "trades": 1,
+        "pnl": -31.570133000001093
+      },
+      {
+        "symbol": "MDB",
+        "trades": 1,
+        "pnl": -42.16000000000031
+      },
+      {
+        "symbol": "F",
+        "trades": 1,
+        "pnl": -56.78999999999879
+      },
+      {
+        "symbol": "CVNA",
+        "trades": 1,
+        "pnl": -57.7499999999997
+      },
+      {
+        "symbol": "IONQ",
+        "trades": 1,
+        "pnl": -76.31999999999837
+      },
+      {
+        "symbol": "BA",
+        "trades": 1,
+        "pnl": -82.62000000000023
+      },
+      {
+        "symbol": "LLY",
+        "trades": 1,
+        "pnl": -136.67998399999624
+      },
+      {
+        "symbol": "AMD",
+        "trades": 1,
+        "pnl": -141.68000000000484
+      },
+      {
+        "symbol": "UPST",
+        "trades": 1,
+        "pnl": -146.29999999999924
+      },
+      {
+        "symbol": "MSFT",
+        "trades": 1,
+        "pnl": -153.3700139999993
+      },
+      {
+        "symbol": "NVDA",
+        "trades": 2,
+        "pnl": -155.09011000000072
+      },
+      {
+        "symbol": "NIO",
+        "trades": 1,
+        "pnl": -173.08000000000015
+      },
+      {
+        "symbol": "SEDG",
+        "trades": 1,
+        "pnl": -203.93999999999895
+      },
+      {
+        "symbol": "AVGO",
+        "trades": 1,
+        "pnl": -204.78007799999943
+      },
+      {
+        "symbol": "NET",
+        "trades": 1,
+        "pnl": -222.87999999999784
+      },
+      {
+        "symbol": "OKTA",
+        "trades": 1,
+        "pnl": -259.1700000000038
+      },
+      {
+        "symbol": "ORCL",
+        "trades": 2,
+        "pnl": -381.599755000001
+      },
+      {
+        "symbol": "SHOP",
+        "trades": 2,
+        "pnl": -404.57997500000045
+      }
+    ]
+  },
+  "intradaySummary": {
+    "viewMode": "paper",
+    "totalTrades": 49,
+    "wins": 22,
+    "losses": 27,
+    "hitRatio": 0.4489795918367347,
+    "netPnl": 9909.699400000012,
+    "grossProfit": 13598.059407000012,
+    "grossLoss": 3688.360007,
+    "avgWin": 618.0936094090914,
+    "avgLoss": 136.60592618518518,
+    "riskReward": 4.524647112096687,
+    "profitFactor": 3.6867494987454488,
+    "expectancyR": 1.480453805431166,
+    "maxDrawdownPct": 2.545123724736988,
+    "bySymbol": [
+      {
+        "symbol": "TTD",
+        "trades": 2,
+        "pnl": 1995.5600000000068
+      },
+      {
+        "symbol": "HIMS",
+        "trades": 1,
+        "pnl": 1463.9899680000008
+      },
+      {
+        "symbol": "APP",
+        "trades": 2,
+        "pnl": 1455.259990000001
+      },
+      {
+        "symbol": "MU",
+        "trades": 1,
+        "pnl": 1248.0200139999988
+      },
+      {
+        "symbol": "PATH",
+        "trades": 1,
+        "pnl": 1142.9099999999996
+      },
+      {
+        "symbol": "ADBE",
+        "trades": 2,
+        "pnl": 810.74
+      },
+      {
+        "symbol": "CRM",
+        "trades": 1,
+        "pnl": 622.3800000000003
+      },
+      {
+        "symbol": "RBLX",
+        "trades": 2,
+        "pnl": 613.9899999999994
+      },
+      {
+        "symbol": "RKLB",
+        "trades": 1,
+        "pnl": 598.4300000000006
+      },
+      {
+        "symbol": "INTC",
+        "trades": 1,
+        "pnl": 528.3797999999987
+      },
+      {
+        "symbol": "PINS",
+        "trades": 1,
+        "pnl": 517.4093950000001
+      },
+      {
+        "symbol": "SOFI",
+        "trades": 3,
+        "pnl": 479.5500000000001
+      },
+      {
+        "symbol": "AFRM",
+        "trades": 1,
+        "pnl": 369.30018400000154
+      },
+      {
+        "symbol": "META",
+        "trades": 1,
+        "pnl": 278.9200000000028
+      },
+      {
+        "symbol": "UNH",
+        "trades": 2,
+        "pnl": 237.4799479999997
+      },
+      {
+        "symbol": "ANET",
+        "trades": 2,
+        "pnl": 191.77007799999842
+      },
+      {
+        "symbol": "UBER",
+        "trades": 1,
+        "pnl": 169.69009399999985
+      },
+      {
+        "symbol": "U",
+        "trades": 1,
+        "pnl": 135.17999999999978
+      },
+      {
+        "symbol": "SNOW",
+        "trades": 1,
+        "pnl": -0.7599999999993088
+      },
+      {
+        "symbol": "PLTR",
+        "trades": 1,
+        "pnl": -18.140021999999902
+      },
+      {
+        "symbol": "NFLX",
+        "trades": 1,
+        "pnl": -31.570133000001093
+      },
+      {
+        "symbol": "MDB",
+        "trades": 1,
+        "pnl": -42.16000000000031
+      },
+      {
+        "symbol": "F",
+        "trades": 1,
+        "pnl": -56.78999999999879
+      },
+      {
+        "symbol": "CVNA",
+        "trades": 1,
+        "pnl": -57.7499999999997
+      },
+      {
+        "symbol": "IONQ",
+        "trades": 1,
+        "pnl": -76.31999999999837
+      },
+      {
+        "symbol": "BA",
+        "trades": 1,
+        "pnl": -82.62000000000023
+      },
+      {
+        "symbol": "LLY",
+        "trades": 1,
+        "pnl": -136.67998399999624
+      },
+      {
+        "symbol": "AMD",
+        "trades": 1,
+        "pnl": -141.68000000000484
+      },
+      {
+        "symbol": "UPST",
+        "trades": 1,
+        "pnl": -146.29999999999924
+      },
+      {
+        "symbol": "MSFT",
+        "trades": 1,
+        "pnl": -153.3700139999993
+      },
+      {
+        "symbol": "NVDA",
+        "trades": 2,
+        "pnl": -155.09011000000072
+      },
+      {
+        "symbol": "NIO",
+        "trades": 1,
+        "pnl": -173.08000000000015
+      },
+      {
+        "symbol": "SEDG",
+        "trades": 1,
+        "pnl": -203.93999999999895
+      },
+      {
+        "symbol": "AVGO",
+        "trades": 1,
+        "pnl": -204.78007799999943
+      },
+      {
+        "symbol": "NET",
+        "trades": 1,
+        "pnl": -222.87999999999784
+      },
+      {
+        "symbol": "OKTA",
+        "trades": 1,
+        "pnl": -259.1700000000038
+      },
+      {
+        "symbol": "ORCL",
+        "trades": 2,
+        "pnl": -381.599755000001
+      },
+      {
+        "symbol": "SHOP",
+        "trades": 2,
+        "pnl": -404.57997500000045
+      }
+    ]
+  },
+  "byStrategy": [
+    {
+      "strategy": "gapfade",
+      "trades": 11,
+      "wins": 9,
+      "losses": 2,
+      "hitRatio": 0.8181818181818182,
+      "pnl": 9162.309784000005,
+      "avgR": 1.2755047997212559
+    },
+    {
+      "strategy": "gapgo-strict",
+      "trades": 4,
+      "wins": 3,
+      "losses": 1,
+      "hitRatio": 0.75,
+      "pnl": 1264.449843999994,
+      "avgR": 0.9559276311268503
+    },
+    {
+      "strategy": "hour1-strict",
+      "trades": 13,
+      "wins": 7,
+      "losses": 6,
+      "hitRatio": 0.5384615384615384,
+      "pnl": 811.1003940000063,
+      "avgR": 0.36230496256356515
+    },
+    {
+      "strategy": "vwap",
+      "trades": 6,
+      "wins": 1,
+      "losses": 5,
+      "hitRatio": 0.16666666666666666,
+      "pnl": 23.599395000001408,
+      "avgR": 0.06436015805801924
+    },
+    {
+      "strategy": "late-strong",
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "hitRatio": 0,
+      "pnl": -18.90002199999921,
+      "avgR": -0.178147077124693
+    },
+    {
+      "strategy": "orb",
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "hitRatio": 0,
+      "pnl": -170.1699660000014,
+      "avgR": -1.0292097368421167
+    },
+    {
+      "strategy": "orb-strict",
+      "trades": 2,
+      "wins": 0,
+      "losses": 2,
+      "hitRatio": 0,
+      "pnl": -299.1999999999962,
+      "avgR": -1.1335754640839535
+    },
+    {
+      "strategy": "aft-trend-strict",
+      "trades": 4,
+      "wins": 1,
+      "losses": 3,
+      "hitRatio": 0.25,
+      "pnl": -311.1400139999985,
+      "avgR": -0.6621556884516453
+    },
+    {
+      "strategy": "orb-long-strict",
+      "trades": 5,
+      "wins": 1,
+      "losses": 4,
+      "hitRatio": 0.2,
+      "pnl": -552.3500150000018,
+      "avgR": -0.7897075089662324
+    }
+  ],
+  "byDay": [
+    {
+      "day": "2026-10-16",
+      "tradeCount": 20,
+      "wins": 9,
+      "losses": 11,
+      "hitRatio": 0.45,
+      "pnl": 7406.489159000003,
+      "trades": [
+        {
+          "symbol": "AVGO",
+          "strategy": "intraday/gapfade",
+          "quantity": 87,
+          "entryPrice": 339.453794,
+          "exitPrice": 337.1,
+          "pnl": -204.78007799999943,
+          "rMultiple": -0.4388300520116871,
+          "exitReason": "long · end of day",
+          "closedAt": 1792157720144,
+          "mode": "paper"
+        },
+        {
+          "symbol": "PINS",
+          "strategy": "intraday/vwap",
+          "quantity": 1345,
+          "entryPrice": 22.260803,
+          "exitPrice": 22.645494,
+          "pnl": 517.4093950000001,
+          "rMultiple": 1.915763210708999,
+          "exitReason": "long · end of day",
+          "closedAt": 1792157720259,
+          "mode": "paper"
+        },
+        {
+          "symbol": "PATH",
+          "strategy": "intraday/gapfade",
+          "quantity": 2241,
+          "entryPrice": 13.57,
+          "exitPrice": 13.06,
+          "pnl": 1142.9099999999996,
+          "rMultiple": 1.15909090909091,
+          "exitReason": "short · target",
+          "closedAt": 1792161320104,
+          "mode": "paper"
+        },
+        {
+          "symbol": "OKTA",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 159,
+          "entryPrice": 191.48,
+          "exitPrice": 193.11,
+          "pnl": -259.1700000000038,
+          "rMultiple": -1.0516129032258144,
+          "exitReason": "short · stop",
+          "closedAt": 1792161620138,
+          "mode": "paper"
+        },
+        {
+          "symbol": "F",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 1893,
+          "entryPrice": 12.74,
+          "exitPrice": 12.71,
+          "pnl": -56.78999999999879,
+          "rMultiple": -1,
+          "exitReason": "long · stop",
+          "closedAt": 1792164020107,
+          "mode": "paper"
+        },
+        {
+          "symbol": "SEDG",
+          "strategy": "intraday/vwap",
+          "quantity": 927,
+          "entryPrice": 32.67,
+          "exitPrice": 32.45,
+          "pnl": -203.93999999999895,
+          "rMultiple": -0.3928571428571392,
+          "exitReason": "long · closed below VWAP",
+          "closedAt": 1792166432022,
+          "mode": "paper"
+        },
+        {
+          "symbol": "MSFT",
+          "strategy": "intraday/aft-trend-strict",
+          "quantity": 57,
+          "entryPrice": 525.31614,
+          "exitPrice": 528.006842,
+          "pnl": -153.3700139999993,
+          "rMultiple": -1.010076355364016,
+          "exitReason": "short · stop",
+          "closedAt": 1792172720108,
+          "mode": "paper"
+        },
+        {
+          "symbol": "NVDA",
+          "strategy": "intraday/gapfade",
+          "quantity": 140,
+          "entryPrice": 216.83,
+          "exitPrice": 214.771428,
+          "pnl": -288.2000800000037,
+          "rMultiple": -1.0190950495049584,
+          "exitReason": "long · stop",
+          "closedAt": 1792173920221,
+          "mode": "paper"
+        },
+        {
+          "symbol": "SHOP",
+          "strategy": "intraday/aft-trend-strict",
+          "quantity": 180,
+          "entryPrice": 168.82,
+          "exitPrice": 170.2,
+          "pnl": -248.39999999999918,
+          "rMultiple": -1.0298507462686508,
+          "exitReason": "short · stop",
+          "closedAt": 1792174520141,
+          "mode": "paper"
+        },
+        {
+          "symbol": "HIMS",
+          "strategy": "intraday/gapfade",
+          "quantity": 1046,
+          "entryPrice": 29.099608,
+          "exitPrice": 27.7,
+          "pnl": 1463.9899680000008,
+          "rMultiple": 1.4423119728934288,
+          "exitReason": "short · target",
+          "closedAt": 1792177220189,
+          "mode": "paper"
+        },
+        {
+          "symbol": "MDB",
+          "strategy": "intraday/vwap",
+          "quantity": 17,
+          "entryPrice": 336,
+          "exitPrice": 338.48,
+          "pnl": -42.16000000000031,
+          "rMultiple": -0.32804232804233036,
+          "exitReason": "short · closed above VWAP",
+          "closedAt": 1792178131372,
+          "mode": "paper"
+        },
+        {
+          "symbol": "SOFI",
+          "strategy": "intraday/aft-trend-strict",
+          "quantity": 405,
+          "entryPrice": 14.41,
+          "exitPrice": 14.52,
+          "pnl": -44.54999999999977,
+          "rMultiple": -1,
+          "exitReason": "short · stop",
+          "closedAt": 1792179020111,
+          "mode": "paper"
+        },
+        {
+          "symbol": "TTD",
+          "strategy": "intraday/gapfade",
+          "quantity": 2318,
+          "entryPrice": 13.13,
+          "exitPrice": 12.19,
+          "pnl": 2178.920000000003,
+          "rMultiple": 4.947368421052651,
+          "exitReason": "short · target",
+          "closedAt": 1792179920111,
+          "mode": "paper"
+        },
+        {
+          "symbol": "U",
+          "strategy": "intraday/aft-trend-strict",
+          "quantity": 751,
+          "entryPrice": 40.5,
+          "exitPrice": 40.32,
+          "pnl": 135.17999999999978,
+          "rMultiple": 0.3913043478260856,
+          "exitReason": "short · end of day",
+          "closedAt": 1792180540736,
+          "mode": "paper"
+        },
+        {
+          "symbol": "CRM",
+          "strategy": "intraday/gapfade",
+          "quantity": 123,
+          "entryPrice": 246.34,
+          "exitPrice": 241.28,
+          "pnl": 622.3800000000003,
+          "rMultiple": 0.9844357976653728,
+          "exitReason": "short · end of day",
+          "closedAt": 1792180541319,
+          "mode": "paper"
+        },
+        {
+          "symbol": "ADBE",
+          "strategy": "intraday/gapfade",
+          "quantity": 120,
+          "entryPrice": 251.85,
+          "exitPrice": 244.73,
+          "pnl": 854.4000000000005,
+          "rMultiple": 1.568281938325995,
+          "exitReason": "short · end of day",
+          "closedAt": 1792180541434,
+          "mode": "paper"
+        },
+        {
+          "symbol": "SNOW",
+          "strategy": "intraday/late-strong",
+          "quantity": 19,
+          "entryPrice": 306.74,
+          "exitPrice": 306.78,
+          "pnl": -0.7599999999993088,
+          "rMultiple": -0.009779951100235664,
+          "exitReason": "short · end of day",
+          "closedAt": 1792180542226,
+          "mode": "paper"
+        },
+        {
+          "symbol": "RBLX",
+          "strategy": "intraday/gapfade",
+          "quantity": 602,
+          "entryPrice": 50.77,
+          "exitPrice": 49.34,
+          "pnl": 860.8599999999998,
+          "rMultiple": 1.4299999999999997,
+          "exitReason": "short · end of day",
+          "closedAt": 1792180542695,
+          "mode": "paper"
+        },
+        {
+          "symbol": "PLTR",
+          "strategy": "intraday/late-strong",
+          "quantity": 31,
+          "entryPrice": 185.56129,
+          "exitPrice": 186.146452,
+          "pnl": -18.140021999999902,
+          "rMultiple": -0.3465142031491503,
+          "exitReason": "short · end of day",
+          "closedAt": 1792180544380,
+          "mode": "paper"
+        },
+        {
+          "symbol": "APP",
+          "strategy": "intraday/gapfade",
+          "quantity": 110,
+          "entryPrice": 275.890909,
+          "exitPrice": 265.43,
+          "pnl": 1150.6999900000017,
+          "rMultiple": 2.031603053820571,
+          "exitReason": "short · end of day",
+          "closedAt": 1792180547711,
+          "mode": "paper"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-15",
+      "tradeCount": 16,
+      "wins": 8,
+      "losses": 8,
+      "hitRatio": 0.5,
+      "pnl": 2511.309881000002,
+      "trades": [
+        {
+          "symbol": "NFLX",
+          "strategy": "intraday/orb-long-strict",
+          "quantity": 413,
+          "entryPrice": 72.31,
+          "exitPrice": 72.233559,
+          "pnl": -31.570133000001093,
+          "rMultiple": -0.7644099999999613,
+          "exitReason": "long · stop",
+          "closedAt": 1792071920114,
+          "mode": "paper"
+        },
+        {
+          "symbol": "NIO",
+          "strategy": "intraday/orb-long-strict",
+          "quantity": 8654,
+          "entryPrice": 3.46,
+          "exitPrice": 3.44,
+          "pnl": -173.08000000000015,
+          "rMultiple": -1,
+          "exitReason": "long · stop",
+          "closedAt": 1792071920145,
+          "mode": "paper"
+        },
+        {
+          "symbol": "SHOP",
+          "strategy": "intraday/orb-long-strict",
+          "quantity": 175,
+          "entryPrice": 170.06,
+          "exitPrice": 169.167543,
+          "pnl": -156.1799750000013,
+          "rMultiple": -1.2060229729729681,
+          "exitReason": "long · stop",
+          "closedAt": 1792071920177,
+          "mode": "paper"
+        },
+        {
+          "symbol": "RKLB",
+          "strategy": "intraday/gapgo-strict",
+          "quantity": 581,
+          "entryPrice": 51.34,
+          "exitPrice": 50.31,
+          "pnl": 598.4300000000006,
+          "rMultiple": 1.5373134328358349,
+          "exitReason": "short · target",
+          "closedAt": 1792072520136,
+          "mode": "paper"
+        },
+        {
+          "symbol": "INTC",
+          "strategy": "intraday/gapgo-strict",
+          "quantity": 325,
+          "entryPrice": 91.985815,
+          "exitPrice": 90.360031,
+          "pnl": 528.3797999999987,
+          "rMultiple": 2.155683287257121,
+          "exitReason": "short · target",
+          "closedAt": 1792072520170,
+          "mode": "paper"
+        },
+        {
+          "symbol": "ANET",
+          "strategy": "intraday/gapgo-strict",
+          "quantity": 164,
+          "entryPrice": 181.45,
+          "exitPrice": 179.746829,
+          "pnl": 279.3200439999996,
+          "rMultiple": 1.2165507142857075,
+          "exitReason": "short · target",
+          "closedAt": 1792072520204,
+          "mode": "paper"
+        },
+        {
+          "symbol": "ORCL",
+          "strategy": "intraday/orb-long-strict",
+          "quantity": 229,
+          "entryPrice": 130.758995,
+          "exitPrice": 129.81,
+          "pnl": -217.3198549999992,
+          "rMultiple": -1.1047736017089786,
+          "exitReason": "long · stop",
+          "closedAt": 1792072520243,
+          "mode": "paper"
+        },
+        {
+          "symbol": "AMD",
+          "strategy": "intraday/gapgo-strict",
+          "quantity": 56,
+          "entryPrice": 531.56,
+          "exitPrice": 534.09,
+          "pnl": -141.68000000000484,
+          "rMultiple": -1.0858369098712626,
+          "exitReason": "short · stop",
+          "closedAt": 1792072820116,
+          "mode": "paper"
+        },
+        {
+          "symbol": "SOFI",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 2081,
+          "entryPrice": 14.37,
+          "exitPrice": 14.51,
+          "pnl": 291.34000000000117,
+          "rMultiple": 1.7500000000000053,
+          "exitReason": "long · target",
+          "closedAt": 1792076720092,
+          "mode": "paper"
+        },
+        {
+          "symbol": "MU",
+          "strategy": "intraday/gapfade",
+          "quantity": 34,
+          "entryPrice": 877.87,
+          "exitPrice": 914.576471,
+          "pnl": 1248.0200139999988,
+          "rMultiple": 1.6646925623582784,
+          "exitReason": "long · target",
+          "closedAt": 1792077320103,
+          "mode": "paper"
+        },
+        {
+          "symbol": "UNH",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 72,
+          "entryPrice": 410.25,
+          "exitPrice": 413.19,
+          "pnl": 211.67999999999984,
+          "rMultiple": 1.5000000000000144,
+          "exitReason": "long · target",
+          "closedAt": 1792078520108,
+          "mode": "paper"
+        },
+        {
+          "symbol": "ADBE",
+          "strategy": "intraday/vwap",
+          "quantity": 118,
+          "entryPrice": 251.65,
+          "exitPrice": 251.28,
+          "pnl": -43.66000000000054,
+          "rMultiple": -0.18226600985221889,
+          "exitReason": "long · closed below VWAP",
+          "closedAt": 1792079129385,
+          "mode": "paper"
+        },
+        {
+          "symbol": "TTD",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 2292,
+          "entryPrice": 13.04,
+          "exitPrice": 12.96,
+          "pnl": -183.3599999999961,
+          "rMultiple": -1.3333333333333333,
+          "exitReason": "long · stop",
+          "closedAt": 1792080320108,
+          "mode": "paper"
+        },
+        {
+          "symbol": "LLY",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 23,
+          "entryPrice": 1269.49913,
+          "exitPrice": 1263.556522,
+          "pnl": -136.67998399999624,
+          "rMultiple": -1.10066029156546,
+          "exitReason": "long · stop",
+          "closedAt": 1792088120106,
+          "mode": "paper"
+        },
+        {
+          "symbol": "NVDA",
+          "strategy": "intraday/gapfade",
+          "quantity": 138,
+          "entryPrice": 216.29,
+          "exitPrice": 217.254565,
+          "pnl": 133.109970000003,
+          "rMultiple": 0.2606932432432499,
+          "exitReason": "long · end of day",
+          "closedAt": 1792094107557,
+          "mode": "paper"
+        },
+        {
+          "symbol": "APP",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 108,
+          "entryPrice": 276.83,
+          "exitPrice": 279.65,
+          "pnl": 304.55999999999926,
+          "rMultiple": 1.6206896551724015,
+          "exitReason": "long · end of day",
+          "closedAt": 1792094153525,
+          "mode": "paper"
+        }
+      ]
+    },
+    {
+      "day": "2026-10-14",
+      "tradeCount": 9,
+      "wins": 5,
+      "losses": 4,
+      "hitRatio": 0.5555555555555556,
+      "pnl": 461.27032600000166,
+      "trades": [
+        {
+          "symbol": "UNH",
+          "strategy": "intraday/orb-long-strict",
+          "quantity": 76,
+          "entryPrice": 394.87,
+          "exitPrice": 395.209473,
+          "pnl": 25.79994799999986,
+          "rMultiple": 0.12666902985074524,
+          "exitReason": "long · target",
+          "closedAt": 1791985820106,
+          "mode": "paper"
+        },
+        {
+          "symbol": "UPST",
+          "strategy": "intraday/vwap",
+          "quantity": 1330,
+          "entryPrice": 22.6,
+          "exitPrice": 22.71,
+          "pnl": -146.29999999999924,
+          "rMultiple": -0.5,
+          "exitReason": "short · closed above VWAP",
+          "closedAt": 1791988526397,
+          "mode": "paper"
+        },
+        {
+          "symbol": "ORCL",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 227,
+          "entryPrice": 132.499296,
+          "exitPrice": 133.222996,
+          "pnl": -164.27990000000182,
+          "rMultiple": -0.990414723335311,
+          "exitReason": "short · stop",
+          "closedAt": 1791989120109,
+          "mode": "paper"
+        },
+        {
+          "symbol": "UBER",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 434,
+          "entryPrice": 69.260023,
+          "exitPrice": 68.869032,
+          "pnl": 169.69009399999985,
+          "rMultiple": 1.448238183252661,
+          "exitReason": "short · target",
+          "closedAt": 1791990620121,
+          "mode": "paper"
+        },
+        {
+          "symbol": "CVNA",
+          "strategy": "intraday/vwap",
+          "quantity": 525,
+          "entryPrice": 57.17,
+          "exitPrice": 57.28,
+          "pnl": -57.7499999999997,
+          "rMultiple": -0.12643678160919514,
+          "exitReason": "short · closed above VWAP",
+          "closedAt": 1791991827523,
+          "mode": "paper"
+        },
+        {
+          "symbol": "AFRM",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 424,
+          "entryPrice": 70.83,
+          "exitPrice": 69.959009,
+          "pnl": 369.30018400000154,
+          "rMultiple": 1.893458695652149,
+          "exitReason": "short · target",
+          "closedAt": 1791993020108,
+          "mode": "paper"
+        },
+        {
+          "symbol": "META",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 40,
+          "entryPrice": 743.6675,
+          "exitPrice": 736.6945,
+          "pnl": 278.9200000000028,
+          "rMultiple": 1.777692797960496,
+          "exitReason": "short · target",
+          "closedAt": 1791994220116,
+          "mode": "paper"
+        },
+        {
+          "symbol": "SOFI",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 2116,
+          "entryPrice": 14.19,
+          "exitPrice": 14.08,
+          "pnl": 232.7599999999988,
+          "rMultiple": 1.2222222222222177,
+          "exitReason": "short · target",
+          "closedAt": 1791995720129,
+          "mode": "paper"
+        },
+        {
+          "symbol": "RBLX",
+          "strategy": "intraday/hour1-strict",
+          "quantity": 633,
+          "entryPrice": 47.44,
+          "exitPrice": 47.83,
+          "pnl": -246.87000000000035,
+          "rMultiple": -1.0263157894736787,
+          "exitReason": "short · stop",
+          "closedAt": 1791996020153,
+          "mode": "paper"
+        }
+      ]
+    },
+    {
+      "day": "2026-09-24",
+      "tradeCount": 2,
+      "wins": 0,
+      "losses": 2,
+      "hitRatio": 0,
+      "pnl": -170.1699660000014,
+      "trades": [
+        {
+          "symbol": "ANET",
+          "strategy": "intraday/orb",
+          "quantity": 98,
+          "entryPrice": 203.77,
+          "exitPrice": 202.876633,
+          "pnl": -87.54996600000118,
+          "rMultiple": -0.9926300000000071,
+          "exitReason": "long · stop",
+          "closedAt": 1790258120150,
+          "mode": "paper"
+        },
+        {
+          "symbol": "BA",
+          "strategy": "intraday/orb",
+          "quantity": 102,
+          "entryPrice": 196.53,
+          "exitPrice": 197.34,
+          "pnl": -82.62000000000023,
+          "rMultiple": -1.0657894736842262,
+          "exitReason": "short · stop",
+          "closedAt": 1790260520145,
+          "mode": "paper"
+        }
+      ]
+    },
+    {
+      "day": "2026-09-23",
+      "tradeCount": 2,
+      "wins": 0,
+      "losses": 2,
+      "hitRatio": 0,
+      "pnl": -299.1999999999962,
+      "trades": [
+        {
+          "symbol": "NET",
+          "strategy": "intraday/orb-strict",
+          "quantity": 56,
+          "entryPrice": 359.64,
+          "exitPrice": 355.66,
+          "pnl": -222.87999999999784,
+          "rMultiple": -1.124293785310735,
+          "exitReason": "long · stop",
+          "closedAt": 1790171120157,
+          "mode": "paper"
+        },
+        {
+          "symbol": "IONQ",
+          "strategy": "intraday/orb-strict",
+          "quantity": 477,
+          "entryPrice": 42.27,
+          "exitPrice": 42.43,
+          "pnl": -76.31999999999837,
+          "rMultiple": -1.1428571428571719,
+          "exitReason": "short · stop",
+          "closedAt": 1790171120192,
+          "mode": "paper"
+        }
+      ]
+    }
+  ],
+  "exitReasons": [
+    {
+      "reason": "stop",
+      "trades": 19,
+      "pnl": -2970.869907000003
+    },
+    {
+      "reason": "target",
+      "trades": 14,
+      "pnl": 9019.460052000006
+    },
+    {
+      "reason": "end of day",
+      "trades": 11,
+      "pnl": 4354.919255000005
+    },
+    {
+      "reason": "closed above VWAP",
+      "trades": 3,
+      "pnl": -246.20999999999924
+    },
+    {
+      "reason": "closed below VWAP",
+      "trades": 2,
+      "pnl": -247.59999999999948
+    }
+  ],
+  "rBuckets": [
+    {
+      "label": "≤ -2R",
+      "count": 0
+    },
+    {
+      "label": "-2R to -1R",
+      "count": 16
+    },
+    {
+      "label": "-1R to 0",
+      "count": 11
+    },
+    {
+      "label": "0 to 1R",
+      "count": 4
+    },
+    {
+      "label": "1R to 2R",
+      "count": 15
+    },
+    {
+      "label": "> 2R",
+      "count": 3
+    }
+  ],
+  "bestTrades": [
+    {
+      "symbol": "TTD",
+      "strategy": "gapfade",
+      "pnl": 2178.920000000003,
+      "rMultiple": 4.947368421052651,
+      "exitReason": "short · target",
+      "closedAt": 1792179920111
+    },
+    {
+      "symbol": "HIMS",
+      "strategy": "gapfade",
+      "pnl": 1463.9899680000008,
+      "rMultiple": 1.4423119728934288,
+      "exitReason": "short · target",
+      "closedAt": 1792177220189
+    },
+    {
+      "symbol": "MU",
+      "strategy": "gapfade",
+      "pnl": 1248.0200139999988,
+      "rMultiple": 1.6646925623582784,
+      "exitReason": "long · target",
+      "closedAt": 1792077320103
+    },
+    {
+      "symbol": "APP",
+      "strategy": "gapfade",
+      "pnl": 1150.6999900000017,
+      "rMultiple": 2.031603053820571,
+      "exitReason": "short · end of day",
+      "closedAt": 1792180547711
+    },
+    {
+      "symbol": "PATH",
+      "strategy": "gapfade",
+      "pnl": 1142.9099999999996,
+      "rMultiple": 1.15909090909091,
+      "exitReason": "short · target",
+      "closedAt": 1792161320104
+    }
+  ],
+  "worstTrades": [
+    {
+      "symbol": "NVDA",
+      "strategy": "gapfade",
+      "pnl": -288.2000800000037,
+      "rMultiple": -1.0190950495049584,
+      "exitReason": "long · stop",
+      "closedAt": 1792173920221
+    },
+    {
+      "symbol": "OKTA",
+      "strategy": "hour1-strict",
+      "pnl": -259.1700000000038,
+      "rMultiple": -1.0516129032258144,
+      "exitReason": "short · stop",
+      "closedAt": 1792161620138
+    },
+    {
+      "symbol": "SHOP",
+      "strategy": "aft-trend-strict",
+      "pnl": -248.39999999999918,
+      "rMultiple": -1.0298507462686508,
+      "exitReason": "short · stop",
+      "closedAt": 1792174520141
+    },
+    {
+      "symbol": "RBLX",
+      "strategy": "hour1-strict",
+      "pnl": -246.87000000000035,
+      "rMultiple": -1.0263157894736787,
+      "exitReason": "short · stop",
+      "closedAt": 1791996020153
+    },
+    {
+      "symbol": "NET",
+      "strategy": "orb-strict",
+      "pnl": -222.87999999999784,
+      "rMultiple": -1.124293785310735,
+      "exitReason": "long · stop",
+      "closedAt": 1790171120157
+    }
+  ],
+  "equity": [
+    {
+      "t": 1790171120157,
+      "cumulativePnl": -222.87999999999784
+    },
+    {
+      "t": 1790171120192,
+      "cumulativePnl": -299.1999999999962
+    },
+    {
+      "t": 1790258120150,
+      "cumulativePnl": -386.74996599999736
+    },
+    {
+      "t": 1790260520145,
+      "cumulativePnl": -469.3699659999976
+    },
+    {
+      "t": 1791985820106,
+      "cumulativePnl": -443.57001799999773
+    },
+    {
+      "t": 1791988526397,
+      "cumulativePnl": -589.870017999997
+    },
+    {
+      "t": 1791989120109,
+      "cumulativePnl": -754.1499179999988
+    },
+    {
+      "t": 1791990620121,
+      "cumulativePnl": -584.459823999999
+    },
+    {
+      "t": 1791991827523,
+      "cumulativePnl": -642.2098239999987
+    },
+    {
+      "t": 1791993020108,
+      "cumulativePnl": -272.9096399999971
+    },
+    {
+      "t": 1791994220116,
+      "cumulativePnl": 6.010360000005676
+    },
+    {
+      "t": 1791995720129,
+      "cumulativePnl": 238.77036000000447
+    },
+    {
+      "t": 1791996020153,
+      "cumulativePnl": -8.099639999995873
+    },
+    {
+      "t": 1792071920114,
+      "cumulativePnl": -39.669772999996965
+    },
+    {
+      "t": 1792071920145,
+      "cumulativePnl": -212.7497729999971
+    },
+    {
+      "t": 1792071920177,
+      "cumulativePnl": -368.9297479999984
+    },
+    {
+      "t": 1792072520136,
+      "cumulativePnl": 229.5002520000022
+    },
+    {
+      "t": 1792072520170,
+      "cumulativePnl": 757.8800520000009
+    },
+    {
+      "t": 1792072520204,
+      "cumulativePnl": 1037.2000960000005
+    },
+    {
+      "t": 1792072520243,
+      "cumulativePnl": 819.8802410000013
+    },
+    {
+      "t": 1792072820116,
+      "cumulativePnl": 678.2002409999965
+    },
+    {
+      "t": 1792076720092,
+      "cumulativePnl": 969.5402409999976
+    },
+    {
+      "t": 1792077320103,
+      "cumulativePnl": 2217.5602549999967
+    },
+    {
+      "t": 1792078520108,
+      "cumulativePnl": 2429.2402549999965
+    },
+    {
+      "t": 1792079129385,
+      "cumulativePnl": 2385.580254999996
+    },
+    {
+      "t": 1792080320108,
+      "cumulativePnl": 2202.220255
+    },
+    {
+      "t": 1792088120106,
+      "cumulativePnl": 2065.540271000004
+    },
+    {
+      "t": 1792094107557,
+      "cumulativePnl": 2198.650241000007
+    },
+    {
+      "t": 1792094153525,
+      "cumulativePnl": 2503.210241000006
+    },
+    {
+      "t": 1792157720144,
+      "cumulativePnl": 2298.430163000007
+    },
+    {
+      "t": 1792157720259,
+      "cumulativePnl": 2815.839558000007
+    },
+    {
+      "t": 1792161320104,
+      "cumulativePnl": 3958.749558000007
+    },
+    {
+      "t": 1792161620138,
+      "cumulativePnl": 3699.579558000003
+    },
+    {
+      "t": 1792164020107,
+      "cumulativePnl": 3642.7895580000045
+    },
+    {
+      "t": 1792166432022,
+      "cumulativePnl": 3438.8495580000053
+    },
+    {
+      "t": 1792172720108,
+      "cumulativePnl": 3285.479544000006
+    },
+    {
+      "t": 1792173920221,
+      "cumulativePnl": 2997.2794640000025
+    },
+    {
+      "t": 1792174520141,
+      "cumulativePnl": 2748.8794640000033
+    },
+    {
+      "t": 1792177220189,
+      "cumulativePnl": 4212.869432000004
+    },
+    {
+      "t": 1792178131372,
+      "cumulativePnl": 4170.709432000003
+    },
+    {
+      "t": 1792179020111,
+      "cumulativePnl": 4126.159432000003
+    },
+    {
+      "t": 1792179920111,
+      "cumulativePnl": 6305.079432000006
+    },
+    {
+      "t": 1792180540736,
+      "cumulativePnl": 6440.259432000005
+    },
+    {
+      "t": 1792180541319,
+      "cumulativePnl": 7062.639432000005
+    },
+    {
+      "t": 1792180541434,
+      "cumulativePnl": 7917.039432000006
+    },
+    {
+      "t": 1792180542226,
+      "cumulativePnl": 7916.279432000007
+    },
+    {
+      "t": 1792180542695,
+      "cumulativePnl": 8777.139432000007
+    },
+    {
+      "t": 1792180544380,
+      "cumulativePnl": 8758.999410000008
+    },
+    {
+      "t": 1792180547711,
+      "cumulativePnl": 9909.699400000009
+    }
+  ],
+  "trades": [
+    {
+      "symbol": "NET",
+      "mode": "paper",
+      "strategy": "intraday/orb-strict",
+      "quantity": 56,
+      "entryPrice": 359.64,
+      "exitPrice": 355.66,
+      "pnl": -222.87999999999784,
+      "rMultiple": -1.124293785310735,
+      "exitReason": "long · stop",
+      "closedAt": 1790171120157
+    },
+    {
+      "symbol": "IONQ",
+      "mode": "paper",
+      "strategy": "intraday/orb-strict",
+      "quantity": 477,
+      "entryPrice": 42.27,
+      "exitPrice": 42.43,
+      "pnl": -76.31999999999837,
+      "rMultiple": -1.1428571428571719,
+      "exitReason": "short · stop",
+      "closedAt": 1790171120192
+    },
+    {
+      "symbol": "ANET",
+      "mode": "paper",
+      "strategy": "intraday/orb",
+      "quantity": 98,
+      "entryPrice": 203.77,
+      "exitPrice": 202.876633,
+      "pnl": -87.54996600000118,
+      "rMultiple": -0.9926300000000071,
+      "exitReason": "long · stop",
+      "closedAt": 1790258120150
+    },
+    {
+      "symbol": "BA",
+      "mode": "paper",
+      "strategy": "intraday/orb",
+      "quantity": 102,
+      "entryPrice": 196.53,
+      "exitPrice": 197.34,
+      "pnl": -82.62000000000023,
+      "rMultiple": -1.0657894736842262,
+      "exitReason": "short · stop",
+      "closedAt": 1790260520145
+    },
+    {
+      "symbol": "UNH",
+      "mode": "paper",
+      "strategy": "intraday/orb-long-strict",
+      "quantity": 76,
+      "entryPrice": 394.87,
+      "exitPrice": 395.209473,
+      "pnl": 25.79994799999986,
+      "rMultiple": 0.12666902985074524,
+      "exitReason": "long · target",
+      "closedAt": 1791985820106
+    },
+    {
+      "symbol": "UPST",
+      "mode": "paper",
+      "strategy": "intraday/vwap",
+      "quantity": 1330,
+      "entryPrice": 22.6,
+      "exitPrice": 22.71,
+      "pnl": -146.29999999999924,
+      "rMultiple": -0.5,
+      "exitReason": "short · closed above VWAP",
+      "closedAt": 1791988526397
+    },
+    {
+      "symbol": "ORCL",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 227,
+      "entryPrice": 132.499296,
+      "exitPrice": 133.222996,
+      "pnl": -164.27990000000182,
+      "rMultiple": -0.990414723335311,
+      "exitReason": "short · stop",
+      "closedAt": 1791989120109
+    },
+    {
+      "symbol": "UBER",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 434,
+      "entryPrice": 69.260023,
+      "exitPrice": 68.869032,
+      "pnl": 169.69009399999985,
+      "rMultiple": 1.448238183252661,
+      "exitReason": "short · target",
+      "closedAt": 1791990620121
+    },
+    {
+      "symbol": "CVNA",
+      "mode": "paper",
+      "strategy": "intraday/vwap",
+      "quantity": 525,
+      "entryPrice": 57.17,
+      "exitPrice": 57.28,
+      "pnl": -57.7499999999997,
+      "rMultiple": -0.12643678160919514,
+      "exitReason": "short · closed above VWAP",
+      "closedAt": 1791991827523
+    },
+    {
+      "symbol": "AFRM",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 424,
+      "entryPrice": 70.83,
+      "exitPrice": 69.959009,
+      "pnl": 369.30018400000154,
+      "rMultiple": 1.893458695652149,
+      "exitReason": "short · target",
+      "closedAt": 1791993020108
+    },
+    {
+      "symbol": "META",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 40,
+      "entryPrice": 743.6675,
+      "exitPrice": 736.6945,
+      "pnl": 278.9200000000028,
+      "rMultiple": 1.777692797960496,
+      "exitReason": "short · target",
+      "closedAt": 1791994220116
+    },
+    {
+      "symbol": "SOFI",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 2116,
+      "entryPrice": 14.19,
+      "exitPrice": 14.08,
+      "pnl": 232.7599999999988,
+      "rMultiple": 1.2222222222222177,
+      "exitReason": "short · target",
+      "closedAt": 1791995720129
+    },
+    {
+      "symbol": "RBLX",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 633,
+      "entryPrice": 47.44,
+      "exitPrice": 47.83,
+      "pnl": -246.87000000000035,
+      "rMultiple": -1.0263157894736787,
+      "exitReason": "short · stop",
+      "closedAt": 1791996020153
+    },
+    {
+      "symbol": "NFLX",
+      "mode": "paper",
+      "strategy": "intraday/orb-long-strict",
+      "quantity": 413,
+      "entryPrice": 72.31,
+      "exitPrice": 72.233559,
+      "pnl": -31.570133000001093,
+      "rMultiple": -0.7644099999999613,
+      "exitReason": "long · stop",
+      "closedAt": 1792071920114
+    },
+    {
+      "symbol": "NIO",
+      "mode": "paper",
+      "strategy": "intraday/orb-long-strict",
+      "quantity": 8654,
+      "entryPrice": 3.46,
+      "exitPrice": 3.44,
+      "pnl": -173.08000000000015,
+      "rMultiple": -1,
+      "exitReason": "long · stop",
+      "closedAt": 1792071920145
+    },
+    {
+      "symbol": "SHOP",
+      "mode": "paper",
+      "strategy": "intraday/orb-long-strict",
+      "quantity": 175,
+      "entryPrice": 170.06,
+      "exitPrice": 169.167543,
+      "pnl": -156.1799750000013,
+      "rMultiple": -1.2060229729729681,
+      "exitReason": "long · stop",
+      "closedAt": 1792071920177
+    },
+    {
+      "symbol": "RKLB",
+      "mode": "paper",
+      "strategy": "intraday/gapgo-strict",
+      "quantity": 581,
+      "entryPrice": 51.34,
+      "exitPrice": 50.31,
+      "pnl": 598.4300000000006,
+      "rMultiple": 1.5373134328358349,
+      "exitReason": "short · target",
+      "closedAt": 1792072520136
+    },
+    {
+      "symbol": "INTC",
+      "mode": "paper",
+      "strategy": "intraday/gapgo-strict",
+      "quantity": 325,
+      "entryPrice": 91.985815,
+      "exitPrice": 90.360031,
+      "pnl": 528.3797999999987,
+      "rMultiple": 2.155683287257121,
+      "exitReason": "short · target",
+      "closedAt": 1792072520170
+    },
+    {
+      "symbol": "ANET",
+      "mode": "paper",
+      "strategy": "intraday/gapgo-strict",
+      "quantity": 164,
+      "entryPrice": 181.45,
+      "exitPrice": 179.746829,
+      "pnl": 279.3200439999996,
+      "rMultiple": 1.2165507142857075,
+      "exitReason": "short · target",
+      "closedAt": 1792072520204
+    },
+    {
+      "symbol": "ORCL",
+      "mode": "paper",
+      "strategy": "intraday/orb-long-strict",
+      "quantity": 229,
+      "entryPrice": 130.758995,
+      "exitPrice": 129.81,
+      "pnl": -217.3198549999992,
+      "rMultiple": -1.1047736017089786,
+      "exitReason": "long · stop",
+      "closedAt": 1792072520243
+    },
+    {
+      "symbol": "AMD",
+      "mode": "paper",
+      "strategy": "intraday/gapgo-strict",
+      "quantity": 56,
+      "entryPrice": 531.56,
+      "exitPrice": 534.09,
+      "pnl": -141.68000000000484,
+      "rMultiple": -1.0858369098712626,
+      "exitReason": "short · stop",
+      "closedAt": 1792072820116
+    },
+    {
+      "symbol": "SOFI",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 2081,
+      "entryPrice": 14.37,
+      "exitPrice": 14.51,
+      "pnl": 291.34000000000117,
+      "rMultiple": 1.7500000000000053,
+      "exitReason": "long · target",
+      "closedAt": 1792076720092
+    },
+    {
+      "symbol": "MU",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 34,
+      "entryPrice": 877.87,
+      "exitPrice": 914.576471,
+      "pnl": 1248.0200139999988,
+      "rMultiple": 1.6646925623582784,
+      "exitReason": "long · target",
+      "closedAt": 1792077320103
+    },
+    {
+      "symbol": "UNH",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 72,
+      "entryPrice": 410.25,
+      "exitPrice": 413.19,
+      "pnl": 211.67999999999984,
+      "rMultiple": 1.5000000000000144,
+      "exitReason": "long · target",
+      "closedAt": 1792078520108
+    },
+    {
+      "symbol": "ADBE",
+      "mode": "paper",
+      "strategy": "intraday/vwap",
+      "quantity": 118,
+      "entryPrice": 251.65,
+      "exitPrice": 251.28,
+      "pnl": -43.66000000000054,
+      "rMultiple": -0.18226600985221889,
+      "exitReason": "long · closed below VWAP",
+      "closedAt": 1792079129385
+    },
+    {
+      "symbol": "TTD",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 2292,
+      "entryPrice": 13.04,
+      "exitPrice": 12.96,
+      "pnl": -183.3599999999961,
+      "rMultiple": -1.3333333333333333,
+      "exitReason": "long · stop",
+      "closedAt": 1792080320108
+    },
+    {
+      "symbol": "LLY",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 23,
+      "entryPrice": 1269.49913,
+      "exitPrice": 1263.556522,
+      "pnl": -136.67998399999624,
+      "rMultiple": -1.10066029156546,
+      "exitReason": "long · stop",
+      "closedAt": 1792088120106
+    },
+    {
+      "symbol": "NVDA",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 138,
+      "entryPrice": 216.29,
+      "exitPrice": 217.254565,
+      "pnl": 133.109970000003,
+      "rMultiple": 0.2606932432432499,
+      "exitReason": "long · end of day",
+      "closedAt": 1792094107557
+    },
+    {
+      "symbol": "APP",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 108,
+      "entryPrice": 276.83,
+      "exitPrice": 279.65,
+      "pnl": 304.55999999999926,
+      "rMultiple": 1.6206896551724015,
+      "exitReason": "long · end of day",
+      "closedAt": 1792094153525
+    },
+    {
+      "symbol": "AVGO",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 87,
+      "entryPrice": 339.453794,
+      "exitPrice": 337.1,
+      "pnl": -204.78007799999943,
+      "rMultiple": -0.4388300520116871,
+      "exitReason": "long · end of day",
+      "closedAt": 1792157720144
+    },
+    {
+      "symbol": "PINS",
+      "mode": "paper",
+      "strategy": "intraday/vwap",
+      "quantity": 1345,
+      "entryPrice": 22.260803,
+      "exitPrice": 22.645494,
+      "pnl": 517.4093950000001,
+      "rMultiple": 1.915763210708999,
+      "exitReason": "long · end of day",
+      "closedAt": 1792157720259
+    },
+    {
+      "symbol": "PATH",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 2241,
+      "entryPrice": 13.57,
+      "exitPrice": 13.06,
+      "pnl": 1142.9099999999996,
+      "rMultiple": 1.15909090909091,
+      "exitReason": "short · target",
+      "closedAt": 1792161320104
+    },
+    {
+      "symbol": "OKTA",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 159,
+      "entryPrice": 191.48,
+      "exitPrice": 193.11,
+      "pnl": -259.1700000000038,
+      "rMultiple": -1.0516129032258144,
+      "exitReason": "short · stop",
+      "closedAt": 1792161620138
+    },
+    {
+      "symbol": "F",
+      "mode": "paper",
+      "strategy": "intraday/hour1-strict",
+      "quantity": 1893,
+      "entryPrice": 12.74,
+      "exitPrice": 12.71,
+      "pnl": -56.78999999999879,
+      "rMultiple": -1,
+      "exitReason": "long · stop",
+      "closedAt": 1792164020107
+    },
+    {
+      "symbol": "SEDG",
+      "mode": "paper",
+      "strategy": "intraday/vwap",
+      "quantity": 927,
+      "entryPrice": 32.67,
+      "exitPrice": 32.45,
+      "pnl": -203.93999999999895,
+      "rMultiple": -0.3928571428571392,
+      "exitReason": "long · closed below VWAP",
+      "closedAt": 1792166432022
+    },
+    {
+      "symbol": "MSFT",
+      "mode": "paper",
+      "strategy": "intraday/aft-trend-strict",
+      "quantity": 57,
+      "entryPrice": 525.31614,
+      "exitPrice": 528.006842,
+      "pnl": -153.3700139999993,
+      "rMultiple": -1.010076355364016,
+      "exitReason": "short · stop",
+      "closedAt": 1792172720108
+    },
+    {
+      "symbol": "NVDA",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 140,
+      "entryPrice": 216.83,
+      "exitPrice": 214.771428,
+      "pnl": -288.2000800000037,
+      "rMultiple": -1.0190950495049584,
+      "exitReason": "long · stop",
+      "closedAt": 1792173920221
+    },
+    {
+      "symbol": "SHOP",
+      "mode": "paper",
+      "strategy": "intraday/aft-trend-strict",
+      "quantity": 180,
+      "entryPrice": 168.82,
+      "exitPrice": 170.2,
+      "pnl": -248.39999999999918,
+      "rMultiple": -1.0298507462686508,
+      "exitReason": "short · stop",
+      "closedAt": 1792174520141
+    },
+    {
+      "symbol": "HIMS",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 1046,
+      "entryPrice": 29.099608,
+      "exitPrice": 27.7,
+      "pnl": 1463.9899680000008,
+      "rMultiple": 1.4423119728934288,
+      "exitReason": "short · target",
+      "closedAt": 1792177220189
+    },
+    {
+      "symbol": "MDB",
+      "mode": "paper",
+      "strategy": "intraday/vwap",
+      "quantity": 17,
+      "entryPrice": 336,
+      "exitPrice": 338.48,
+      "pnl": -42.16000000000031,
+      "rMultiple": -0.32804232804233036,
+      "exitReason": "short · closed above VWAP",
+      "closedAt": 1792178131372
+    },
+    {
+      "symbol": "SOFI",
+      "mode": "paper",
+      "strategy": "intraday/aft-trend-strict",
+      "quantity": 405,
+      "entryPrice": 14.41,
+      "exitPrice": 14.52,
+      "pnl": -44.54999999999977,
+      "rMultiple": -1,
+      "exitReason": "short · stop",
+      "closedAt": 1792179020111
+    },
+    {
+      "symbol": "TTD",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 2318,
+      "entryPrice": 13.13,
+      "exitPrice": 12.19,
+      "pnl": 2178.920000000003,
+      "rMultiple": 4.947368421052651,
+      "exitReason": "short · target",
+      "closedAt": 1792179920111
+    },
+    {
+      "symbol": "U",
+      "mode": "paper",
+      "strategy": "intraday/aft-trend-strict",
+      "quantity": 751,
+      "entryPrice": 40.5,
+      "exitPrice": 40.32,
+      "pnl": 135.17999999999978,
+      "rMultiple": 0.3913043478260856,
+      "exitReason": "short · end of day",
+      "closedAt": 1792180540736
+    },
+    {
+      "symbol": "CRM",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 123,
+      "entryPrice": 246.34,
+      "exitPrice": 241.28,
+      "pnl": 622.3800000000003,
+      "rMultiple": 0.9844357976653728,
+      "exitReason": "short · end of day",
+      "closedAt": 1792180541319
+    },
+    {
+      "symbol": "ADBE",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 120,
+      "entryPrice": 251.85,
+      "exitPrice": 244.73,
+      "pnl": 854.4000000000005,
+      "rMultiple": 1.568281938325995,
+      "exitReason": "short · end of day",
+      "closedAt": 1792180541434
+    },
+    {
+      "symbol": "SNOW",
+      "mode": "paper",
+      "strategy": "intraday/late-strong",
+      "quantity": 19,
+      "entryPrice": 306.74,
+      "exitPrice": 306.78,
+      "pnl": -0.7599999999993088,
+      "rMultiple": -0.009779951100235664,
+      "exitReason": "short · end of day",
+      "closedAt": 1792180542226
+    },
+    {
+      "symbol": "RBLX",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 602,
+      "entryPrice": 50.77,
+      "exitPrice": 49.34,
+      "pnl": 860.8599999999998,
+      "rMultiple": 1.4299999999999997,
+      "exitReason": "short · end of day",
+      "closedAt": 1792180542695
+    },
+    {
+      "symbol": "PLTR",
+      "mode": "paper",
+      "strategy": "intraday/late-strong",
+      "quantity": 31,
+      "entryPrice": 185.56129,
+      "exitPrice": 186.146452,
+      "pnl": -18.140021999999902,
+      "rMultiple": -0.3465142031491503,
+      "exitReason": "short · end of day",
+      "closedAt": 1792180544380
+    },
+    {
+      "symbol": "APP",
+      "mode": "paper",
+      "strategy": "intraday/gapfade",
+      "quantity": 110,
+      "entryPrice": 275.890909,
+      "exitPrice": 265.43,
+      "pnl": 1150.6999900000017,
+      "rMultiple": 2.031603053820571,
+      "exitReason": "short · end of day",
+      "closedAt": 1792180547711
+    }
+  ],
+  "orders": [
+    {
+      "ts": 1792180547704,
+      "kind": "exit",
+      "symbol": "APP",
+      "side": "buy",
+      "qty": 110,
+      "price": 265.43,
+      "reason": "end of day; P&L +$1150.70",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792180544373,
+      "kind": "exit",
+      "symbol": "PLTR",
+      "side": "buy",
+      "qty": 31,
+      "price": 186.146452,
+      "reason": "end of day; P&L -$18.14",
+      "origin": "intraday",
+      "strategy": "intraday/late-strong",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792180542688,
+      "kind": "exit",
+      "symbol": "RBLX",
+      "side": "buy",
+      "qty": 602,
+      "price": 49.34,
+      "reason": "end of day; P&L +$860.86",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792180542219,
+      "kind": "exit",
+      "symbol": "SNOW",
+      "side": "buy",
+      "qty": 19,
+      "price": 306.78,
+      "reason": "end of day; P&L -$0.76",
+      "origin": "intraday",
+      "strategy": "intraday/late-strong",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792180541426,
+      "kind": "exit",
+      "symbol": "ADBE",
+      "side": "buy",
+      "qty": 120,
+      "price": 244.73,
+      "reason": "end of day; P&L +$854.40",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792180541312,
+      "kind": "exit",
+      "symbol": "CRM",
+      "side": "buy",
+      "qty": 123,
+      "price": 241.28,
+      "reason": "end of day; P&L +$622.38",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792180540729,
+      "kind": "exit",
+      "symbol": "U",
+      "side": "buy",
+      "qty": 751,
+      "price": 40.32,
+      "reason": "end of day; P&L +$135.18",
+      "origin": "intraday",
+      "strategy": "intraday/aft-trend-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792179920103,
+      "kind": "exit",
+      "symbol": "TTD",
+      "side": "buy",
+      "qty": 2318,
+      "price": 12.19,
+      "reason": "target; P&L +$2178.92",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792179610006,
+      "kind": "entry",
+      "symbol": "EEM",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "QuantPairs target $3602 (Δ$3602)",
+      "origin": "quant",
+      "strategy": "QuantPairs",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792179609974,
+      "kind": "exit",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "QuantPairs target $0 (Δ$-16298)",
+      "origin": "quant",
+      "strategy": "QuantPairs",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792179425841,
+      "kind": "exit",
+      "symbol": "IWM",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$5406)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792179425808,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3607 (Δ$-12694)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792179020103,
+      "kind": "exit",
+      "symbol": "SOFI",
+      "side": "buy",
+      "qty": 405,
+      "price": 14.52,
+      "reason": "stop; P&L -$44.55",
+      "origin": "intraday",
+      "strategy": "intraday/aft-trend-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792178521173,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2699 (Δ$-2699)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792178521139,
+      "kind": "exit",
+      "symbol": "XLF",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$4480)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792178521110,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $11694 (Δ$-4612)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792178131364,
+      "kind": "exit",
+      "symbol": "MDB",
+      "side": "buy",
+      "qty": 17,
+      "price": 338.48,
+      "reason": "closed above VWAP; P&L -$42.16",
+      "origin": "intraday",
+      "strategy": "intraday/vwap",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792177616048,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2711 (Δ$-2711)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792177616016,
+      "kind": "scale-out",
+      "symbol": "XLE",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-3614 (Δ$-76)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792177615980,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4518 (Δ$-93)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792177615948,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $16265 (Δ$200)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792177236964,
+      "kind": "entry",
+      "symbol": "SNOW",
+      "side": "sell",
+      "qty": 19,
+      "price": 306.74,
+      "reason": "SHORT late-day short, -2.4 ATR; stop 310.83",
+      "origin": "intraday",
+      "strategy": "intraday/late-strong",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792177234303,
+      "kind": "entry",
+      "symbol": "PLTR",
+      "side": "sell",
+      "qty": 31,
+      "price": 185.56129,
+      "reason": "SHORT late-day short, -2.6 ATR; stop 187.25",
+      "origin": "intraday",
+      "strategy": "intraday/late-strong",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792177220178,
+      "kind": "exit",
+      "symbol": "HIMS",
+      "side": "buy",
+      "qty": 1046,
+      "price": 27.7,
+      "reason": "target; P&L +$1463.99",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792176929202,
+      "kind": "entry",
+      "symbol": "SOFI",
+      "side": "sell",
+      "qty": 405,
+      "price": 14.41,
+      "reason": "SHORT afternoon LOD break -1.2 ATR; stop 14.52",
+      "origin": "intraday",
+      "strategy": "intraday/aft-trend-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792176709821,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2690 (Δ$-2690)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792176331218,
+      "kind": "entry",
+      "symbol": "MDB",
+      "side": "sell",
+      "qty": 17,
+      "price": 336,
+      "reason": "SHORT VWAP pullback short, day -1.1 ATR; stop 343.56",
+      "origin": "intraday",
+      "strategy": "intraday/vwap",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792175798969,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2691 (Δ$-2691)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792175798937,
+      "kind": "scale-out",
+      "symbol": "LQD",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-3588 (Δ$-78)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792174892799,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2685 (Δ$-2685)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792174829890,
+      "kind": "entry",
+      "symbol": "U",
+      "side": "sell",
+      "qty": 751,
+      "price": 40.5,
+      "reason": "SHORT afternoon LOD break -1.3 ATR; stop 40.96",
+      "origin": "intraday",
+      "strategy": "intraday/aft-trend-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792174520132,
+      "kind": "exit",
+      "symbol": "SHOP",
+      "side": "buy",
+      "qty": 180,
+      "price": 170.2,
+      "reason": "stop; P&L -$248.40",
+      "origin": "intraday",
+      "strategy": "intraday/aft-trend-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792173984371,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2682 (Δ$-2682)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792173984338,
+      "kind": "exit",
+      "symbol": "GDX",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$2694)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792173984307,
+      "kind": "exit",
+      "symbol": "GLD",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-2644)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792173920214,
+      "kind": "exit",
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 140,
+      "price": 214.771428,
+      "reason": "stop; P&L -$288.20",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792173073728,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2667 (Δ$-2667)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792173073699,
+      "kind": "entry",
+      "symbol": "IWM",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-5333 (Δ$80)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792173073691,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $15999 (Δ$-137)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792173029723,
+      "kind": "entry",
+      "symbol": "SHOP",
+      "side": "sell",
+      "qty": 180,
+      "price": 168.82,
+      "reason": "SHORT afternoon LOD break -1.4 ATR; stop 170.16",
+      "origin": "intraday",
+      "strategy": "intraday/aft-trend-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792172720101,
+      "kind": "exit",
+      "symbol": "MSFT",
+      "side": "buy",
+      "qty": 57,
+      "price": 528.006842,
+      "reason": "stop; P&L -$153.37",
+      "origin": "intraday",
+      "strategy": "intraday/aft-trend-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792172163575,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2658 (Δ$-2658)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792172163541,
+      "kind": "entry",
+      "symbol": "IWM",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-5316 (Δ$103)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792172163523,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $15948 (Δ$-202)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792171258694,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2685 (Δ$-2685)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792171258665,
+      "kind": "scale-out",
+      "symbol": "GDX",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2685 (Δ$-80)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792171258632,
+      "kind": "scale-out",
+      "symbol": "IWM",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-5370 (Δ$-233)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792171258580,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $16109 (Δ$131)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792170628197,
+      "kind": "entry",
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 57,
+      "price": 525.327879,
+      "reason": "SHORT afternoon LOD break -1.3 ATR; stop 527.98",
+      "origin": "intraday",
+      "strategy": "intraday/aft-trend-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792170356002,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2669 (Δ$-2669)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792170355969,
+      "kind": "scale-out",
+      "symbol": "LQD",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-3558 (Δ$-3558)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792170355941,
+      "kind": "entry",
+      "symbol": "HYG",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3558 (Δ$3558)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792170355911,
+      "kind": "scale-out",
+      "symbol": "XLE",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-3558 (Δ$-99)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792170355881,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4448 (Δ$-79)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792170355849,
+      "kind": "scale-out",
+      "symbol": "IWM",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-5338 (Δ$-5338)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792170355814,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $16013 (Δ$5526)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792169452825,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2640 (Δ$-2640)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792169452795,
+      "kind": "entry",
+      "symbol": "GLD",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $2640 (Δ$77)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792169452764,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4400 (Δ$-82)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792168547349,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2628 (Δ$-2628)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792168547319,
+      "kind": "exit",
+      "symbol": "XBI",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-3424)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792168547289,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $10513 (Δ$3557)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792167642779,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2612 (Δ$-2612)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792167642749,
+      "kind": "scale-out",
+      "symbol": "GDX",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2612 (Δ$-80)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792167642719,
+      "kind": "exit",
+      "symbol": "EEM",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-3449)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792167642689,
+      "kind": "scale-out",
+      "symbol": "XLE",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-3483 (Δ$-3483)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792167642661,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4354 (Δ$-76)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792167642633,
+      "kind": "exit",
+      "symbol": "QQQ",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-6105)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792167642606,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $6966 (Δ$6966)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792166737924,
+      "kind": "entry",
+      "symbol": "QQQ",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $6096 (Δ$85)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792166432013,
+      "kind": "exit",
+      "symbol": "SEDG",
+      "side": "sell",
+      "qty": 927,
+      "price": 32.45,
+      "reason": "closed below VWAP; P&L -$203.94",
+      "origin": "intraday",
+      "strategy": "intraday/vwap",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792166125914,
+      "kind": "entry",
+      "symbol": "SEDG",
+      "side": "buy",
+      "qty": 927,
+      "price": 32.67,
+      "reason": "LONG VWAP pullback long, day +0.6 ATR; stop 32.11",
+      "origin": "intraday",
+      "strategy": "intraday/vwap",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792165832873,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-8693 (Δ$8993)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792164930551,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-8709 (Δ$8982)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792164027802,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-8687 (Δ$9021)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792164020101,
+      "kind": "exit",
+      "symbol": "F",
+      "side": "sell",
+      "qty": 1893,
+      "price": 12.71,
+      "reason": "stop; P&L -$56.79",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792163126421,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-8689 (Δ$9040)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792162829567,
+      "kind": "entry",
+      "symbol": "F",
+      "side": "buy",
+      "qty": 1893,
+      "price": 12.74,
+      "reason": "LONG hour1 breakout long, morning +0.7 ATR; stop 12.71",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792162223206,
+      "kind": "exit",
+      "symbol": "IWM",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-5176)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792162223179,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-8601 (Δ$9168)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161627476,
+      "kind": "entry",
+      "symbol": "APP",
+      "side": "sell",
+      "qty": 110,
+      "price": 275.891099,
+      "reason": "SHORT gap-up +1.5 ATR failed; stop 281.04",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161620129,
+      "kind": "exit",
+      "symbol": "OKTA",
+      "side": "buy",
+      "qty": 159,
+      "price": 193.11,
+      "reason": "stop; P&L -$259.17",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161326082,
+      "kind": "entry",
+      "symbol": "OKTA",
+      "side": "sell",
+      "qty": 159,
+      "price": 191.48,
+      "reason": "SHORT hour1 breakout short, morning -1.8 ATR; stop 193.03",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161320095,
+      "kind": "exit",
+      "symbol": "PATH",
+      "side": "buy",
+      "qty": 2241,
+      "price": 13.06,
+      "reason": "target; P&L +$1142.91",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161319859,
+      "kind": "entry",
+      "symbol": "EEM",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3464 (Δ$82)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161319822,
+      "kind": "entry",
+      "symbol": "XBI",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3464 (Δ$77)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161319765,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4331 (Δ$-87)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161319728,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-13858 (Δ$3887)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792161319722,
+      "kind": "entry",
+      "symbol": "QQQ",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $6063 (Δ$95)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792160425863,
+      "kind": "entry",
+      "symbol": "NVDA",
+      "side": "buy",
+      "qty": 140,
+      "price": 216.83,
+      "reason": "LONG gap-down -0.9 ATR reclaimed; stop 214.81",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792160416322,
+      "kind": "exit",
+      "symbol": "HYG",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$3392)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792160416284,
+      "kind": "exit",
+      "symbol": "LQD",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-3464)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792160416252,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-13660 (Δ$4077)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792159526347,
+      "kind": "entry",
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 2318,
+      "price": 13.13,
+      "reason": "SHORT gap-up +2.8 ATR failed; stop 13.32",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792159514211,
+      "kind": "scale-out",
+      "symbol": "LQD",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3386 (Δ$-79)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792159514206,
+      "kind": "scale-out",
+      "symbol": "IWM",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $5079 (Δ$-103)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792159514199,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-13545 (Δ$4199)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792159230856,
+      "kind": "entry",
+      "symbol": "ADBE",
+      "side": "sell",
+      "qty": 120,
+      "price": 252.48,
+      "reason": "SHORT gap-up +2.0 ATR failed; stop 256.39",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158634539,
+      "kind": "entry",
+      "symbol": "HIMS",
+      "side": "sell",
+      "qty": 1046,
+      "price": 29.1,
+      "reason": "SHORT gap-up +1.2 ATR failed; stop 30.07",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158631975,
+      "kind": "entry",
+      "symbol": "PATH",
+      "side": "sell",
+      "qty": 2241,
+      "price": 13.57,
+      "reason": "SHORT gap-up +1.6 ATR failed; stop 14.01",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158629402,
+      "kind": "entry",
+      "symbol": "RBLX",
+      "side": "sell",
+      "qty": 602,
+      "price": 50.77,
+      "reason": "SHORT gap-up +1.8 ATR failed; stop 51.77",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158626834,
+      "kind": "entry",
+      "symbol": "CRM",
+      "side": "sell",
+      "qty": 123,
+      "price": 246.34,
+      "reason": "SHORT gap-up +1.9 ATR failed; stop 251.48",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158612336,
+      "kind": "scale-out",
+      "symbol": "LQD",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3381 (Δ$-79)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158612329,
+      "kind": "entry",
+      "symbol": "XBI",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3381 (Δ$3381)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158612301,
+      "kind": "exit",
+      "symbol": "XLE",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-3444)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158612276,
+      "kind": "scale-out",
+      "symbol": "IWM",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $5072 (Δ$-115)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792158612270,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-13525 (Δ$4237)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792157720253,
+      "kind": "exit",
+      "symbol": "PINS",
+      "side": "sell",
+      "qty": 1345,
+      "price": 22.645494,
+      "reason": "end of day; P&L +$517.41",
+      "origin": "intraday",
+      "strategy": "intraday/vwap",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792157720138,
+      "kind": "exit",
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 87,
+      "price": 337.1,
+      "reason": "end of day; P&L -$204.78",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792157710705,
+      "kind": "entry",
+      "symbol": "GLD",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $2566 (Δ$2566)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792157710676,
+      "kind": "scale-out",
+      "symbol": "GDX",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2566 (Δ$-2566)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792157710637,
+      "kind": "exit",
+      "symbol": "XBI",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-3409)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792157710605,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4277 (Δ$-4277)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792157710571,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-13685 (Δ$4078)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792157710566,
+      "kind": "entry",
+      "symbol": "QQQ",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $5987 (Δ$5987)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792094153519,
+      "kind": "exit",
+      "symbol": "APP",
+      "side": "sell",
+      "qty": 108,
+      "price": 279.65,
+      "reason": "end of day; P&L +$304.56",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792094107551,
+      "kind": "exit",
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 138,
+      "price": 217.254565,
+      "reason": "end of day; P&L +$133.11",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792093859366,
+      "kind": "scale-out",
+      "symbol": "HYG",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-3459 (Δ$-3459)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792093859337,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-15567 (Δ$2178)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792093218281,
+      "kind": "entry",
+      "symbol": "XBI",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "QuantPairs target $3454 (Δ$3454)",
+      "origin": "quant",
+      "strategy": "QuantPairs",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792093218251,
+      "kind": "exit",
+      "symbol": "XLK",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "QuantPairs target $0 (Δ$-4360)",
+      "origin": "quant",
+      "strategy": "QuantPairs",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792093218190,
+      "kind": "entry",
+      "symbol": "IWM",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "QuantPairs target $5181 (Δ$5181)",
+      "origin": "quant",
+      "strategy": "QuantPairs",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792093218153,
+      "kind": "exit",
+      "symbol": "QQQ",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "QuantPairs target $0 (Δ$-6095)",
+      "origin": "quant",
+      "strategy": "QuantPairs",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792093218111,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "QuantPairs target $-15543 (Δ$2217)",
+      "origin": "quant",
+      "strategy": "QuantPairs",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792092958060,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-17250 (Δ$507)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792092056551,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-17304 (Δ$-306)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792091153258,
+      "kind": "exit",
+      "symbol": "XLF",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$4313)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792091153231,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-17350 (Δ$-2691)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792090251158,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2597 (Δ$-2597)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792090251130,
+      "kind": "entry",
+      "symbol": "LQD",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3463 (Δ$3463)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792090251096,
+      "kind": "scale-out",
+      "symbol": "HYG",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-3463 (Δ$-3463)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792090251019,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10390 (Δ$4245)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792089349509,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2597 (Δ$-2597)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792089349482,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10388 (Δ$4244)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792088448191,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2593 (Δ$-2593)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792088448151,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10374 (Δ$4248)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792088120100,
+      "kind": "exit",
+      "symbol": "LLY",
+      "side": "sell",
+      "qty": 23,
+      "price": 1263.556522,
+      "reason": "stop; P&L -$136.68",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792087545960,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2581 (Δ$-2581)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792087545932,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10324 (Δ$4298)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792086643954,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2581 (Δ$-2581)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792086643928,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10324 (Δ$4298)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792085741262,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2581 (Δ$-2581)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792085741234,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10324 (Δ$4298)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792084838828,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2581 (Δ$-2581)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792084838799,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10324 (Δ$4298)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792083937357,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2581 (Δ$-2581)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792083937333,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10324 (Δ$4298)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792083035914,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2581 (Δ$-2581)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792083035888,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10324 (Δ$4296)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792082134899,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2584 (Δ$-2584)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792082134865,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4307 (Δ$-4307)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792082134837,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-10336 (Δ$4286)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792081232559,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2586 (Δ$-2586)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792081232526,
+      "kind": "exit",
+      "symbol": "XBI",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$3445)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792081232498,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-14655 (Δ$-3113)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792080328934,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2588 (Δ$-2588)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792080328909,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-11214 (Δ$337)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792080320094,
+      "kind": "exit",
+      "symbol": "TTD",
+      "side": "sell",
+      "qty": 2292,
+      "price": 12.96,
+      "reason": "stop; P&L -$183.36",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792079425732,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2591 (Δ$-2591)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792079425700,
+      "kind": "exit",
+      "symbol": "XLF",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$4290)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792079425670,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-11227 (Δ$-445)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792079129379,
+      "kind": "exit",
+      "symbol": "ADBE",
+      "side": "sell",
+      "qty": 118,
+      "price": 251.28,
+      "reason": "closed below VWAP; P&L -$43.66",
+      "origin": "intraday",
+      "strategy": "intraday/vwap",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792078523530,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2591 (Δ$-2591)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792078523495,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4319 (Δ$-4319)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792078523463,
+      "kind": "entry",
+      "symbol": "SPY",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-6910 (Δ$3865)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792078520102,
+      "kind": "exit",
+      "symbol": "UNH",
+      "side": "sell",
+      "qty": 72,
+      "price": 413.19,
+      "reason": "target; P&L +$211.68",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792077925478,
+      "kind": "entry",
+      "symbol": "TTD",
+      "side": "buy",
+      "qty": 2292,
+      "price": 13.04,
+      "reason": "LONG hour1 breakout long, morning +1.7 ATR; stop 12.98",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792077621775,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2591 (Δ$-2591)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792077621737,
+      "kind": "exit",
+      "symbol": "GDX",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-2572)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792077621708,
+      "kind": "exit",
+      "symbol": "GLD",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$2666)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792077621680,
+      "kind": "exit",
+      "symbol": "XLF",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$4286)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792077621653,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-11229 (Δ$-4292)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792077320098,
+      "kind": "exit",
+      "symbol": "MU",
+      "side": "sell",
+      "qty": 34,
+      "price": 914.576471,
+      "reason": "target; P&L +$1248.02",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076727268,
+      "kind": "entry",
+      "symbol": "LLY",
+      "side": "buy",
+      "qty": 23,
+      "price": 1269.49913,
+      "reason": "LONG hour1 breakout long, morning +0.9 ATR; stop 1264.1",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076720087,
+      "kind": "exit",
+      "symbol": "SOFI",
+      "side": "sell",
+      "qty": 2081,
+      "price": 14.51,
+      "reason": "target; P&L +$291.34",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076719105,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2598 (Δ$-2598)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076719063,
+      "kind": "exit",
+      "symbol": "HYG",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$-3418)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076719032,
+      "kind": "exit",
+      "symbol": "LQD",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$3414)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076719008,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4330 (Δ$-96)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076718973,
+      "kind": "entry",
+      "symbol": "XLK",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $4330 (Δ$94)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076718937,
+      "kind": "entry",
+      "symbol": "QQQ",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $6062 (Δ$95)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076126933,
+      "kind": "entry",
+      "symbol": "UNH",
+      "side": "buy",
+      "qty": 72,
+      "price": 410.25,
+      "reason": "LONG hour1 breakout long, morning +0.8 ATR; stop 408.29",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792076124381,
+      "kind": "entry",
+      "symbol": "SOFI",
+      "side": "buy",
+      "qty": 2081,
+      "price": 14.37,
+      "reason": "LONG hour1 breakout long, morning +0.8 ATR; stop 14.29",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792075824812,
+      "kind": "entry",
+      "symbol": "ADBE",
+      "side": "buy",
+      "qty": 118,
+      "price": 251.65,
+      "reason": "LONG VWAP pullback long, day +1.1 ATR; stop 249.62",
+      "origin": "intraday",
+      "strategy": "intraday/vwap",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792075816813,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2562 (Δ$-2562)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792075816788,
+      "kind": "entry",
+      "symbol": "GLD",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2562 (Δ$104)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792075816783,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-6833 (Δ$-685)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792075526125,
+      "kind": "entry",
+      "symbol": "APP",
+      "side": "buy",
+      "qty": 108,
+      "price": 276.83,
+      "reason": "LONG hour1 breakout long, morning +1.1 ATR; stop 275.09",
+      "origin": "intraday",
+      "strategy": "intraday/hour1-strict",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792075225113,
+      "kind": "entry",
+      "symbol": "PINS",
+      "side": "buy",
+      "qty": 1345,
+      "price": 22.26,
+      "reason": "LONG VWAP pullback long, day +0.8 ATR; stop 22.06",
+      "origin": "intraday",
+      "strategy": "intraday/vwap",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074913928,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2554 (Δ$-2554)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074913902,
+      "kind": "entry",
+      "symbol": "GLD",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2554 (Δ$114)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074913897,
+      "kind": "scale-out",
+      "symbol": "XLF",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-4257 (Δ$-4257)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074913869,
+      "kind": "exit",
+      "symbol": "IWM",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$5190)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074913843,
+      "kind": "scale-out",
+      "symbol": "SPY",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-6812 (Δ$-1437)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074628414,
+      "kind": "entry",
+      "symbol": "AVGO",
+      "side": "buy",
+      "qty": 87,
+      "price": 339.48,
+      "reason": "LONG gap-down -0.8 ATR reclaimed; stop 334.09",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074325642,
+      "kind": "entry",
+      "symbol": "NVDA",
+      "side": "buy",
+      "qty": 138,
+      "price": 216.29,
+      "reason": "LONG gap-down -1.1 ATR reclaimed; stop 212.59",
+      "origin": "intraday",
+      "strategy": "intraday/gapfade",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074011933,
+      "kind": "scale-out",
+      "symbol": "USO",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2560 (Δ$-2560)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074011898,
+      "kind": "scale-out",
+      "symbol": "GLD",
+      "side": "sell",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $-2560 (Δ$-279)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074011869,
+      "kind": "entry",
+      "symbol": "XLE",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $3414 (Δ$3414)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    },
+    {
+      "ts": 1792074011839,
+      "kind": "exit",
+      "symbol": "XLF",
+      "side": "buy",
+      "qty": 0,
+      "price": 0,
+      "reason": "StatArb15m target $0 (Δ$4212)",
+      "origin": "quant",
+      "strategy": "StatArb15m",
+      "mode": "paper"
+    }
+  ],
+  "counts": {
+    "all": 575,
+    "paper": 49,
+    "live": 0,
+    "backtest": 526
+  },
+  "strategyCounts": {
+    "all": 49,
+    "daily": 0,
+    "options": 0,
+    "stocks": 3,
+    "intraday": 49,
+    "quant": 211
+  },
+  "intraday": {
+    "state": {
+      "date": "2026-10-16",
+      "strategyName": "ORB(rvol>=3, stop<=0.1ATR, 2R, long) + ORBRetest(rvol>=2, 15m, 2R) + ORBRetest(rvol>=3, 15m, 1.5R) + GapGo(gap>=3%, rvol>=3, 2R) + GapGo(gap>=5%, rvol>=3, 2R) + VWAPPullback(move>=0.6ATR, held 80%) + VWAPPullback(move>=1ATR, held 90%) + GapFade(gap>=0.75ATR) + GapFade(gap>=1.25ATR) + LateDayMomentum(move>=1ATR at 3pm) + Hour1Break(move>=0.7ATR, stop=0.15ATR) + PowerHour(15:00, move>=1.2ATR, long) + AfternoonTrend(move>=1.2ATR, vol>=2x) + MiddayRevert(morning>=1ATR) + MiddayRevert(morning>=1.5ATR)",
+      "phase": "done",
+      "message": "20 trades today, P&L +$7406.49",
+      "updatedAt": 1792180547718,
+      "regime": "risk-on"
+    },
+    "trades": [
+      {
+        "symbol": "AVGO",
+        "side": "long",
+        "qty": 87,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 339.453794,
+        "stop": 334.09,
+        "target": 346.34,
+        "exitFill": 337.1,
+        "pnl": -204.78007799999943,
+        "exitReason": "end of day",
+        "reason": "[gapfade] gap-down -0.8 ATR reclaimed"
+      },
+      {
+        "symbol": "PINS",
+        "side": "long",
+        "qty": 1345,
+        "status": "closed",
+        "strategyId": "vwap",
+        "entryFill": 22.260803,
+        "stop": 22.06,
+        "exitFill": 22.645494,
+        "pnl": 517.4093950000001,
+        "exitReason": "end of day",
+        "reason": "[vwap] VWAP pullback long, day +0.8 ATR"
+      },
+      {
+        "symbol": "CRM",
+        "side": "short",
+        "qty": 123,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 246.34,
+        "stop": 251.48,
+        "target": 236.03,
+        "exitFill": 241.28,
+        "pnl": 622.3800000000003,
+        "exitReason": "end of day",
+        "reason": "[gapfade] gap-up +1.9 ATR failed"
+      },
+      {
+        "symbol": "RBLX",
+        "side": "short",
+        "qty": 602,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 50.77,
+        "stop": 51.77,
+        "target": 47.51,
+        "exitFill": 49.34,
+        "pnl": 860.8599999999998,
+        "exitReason": "end of day",
+        "reason": "[gapfade] gap-up +1.8 ATR failed"
+      },
+      {
+        "symbol": "PATH",
+        "side": "short",
+        "qty": 2241,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 13.57,
+        "stop": 14.01,
+        "target": 13.07,
+        "exitFill": 13.06,
+        "pnl": 1142.9099999999996,
+        "exitReason": "target",
+        "reason": "[gapfade] gap-up +1.6 ATR failed"
+      },
+      {
+        "symbol": "HIMS",
+        "side": "short",
+        "qty": 1046,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 29.099608,
+        "stop": 30.07,
+        "target": 27.7,
+        "exitFill": 27.7,
+        "pnl": 1463.9899680000008,
+        "exitReason": "target",
+        "reason": "[gapfade] gap-up +1.2 ATR failed"
+      },
+      {
+        "symbol": "ADBE",
+        "side": "short",
+        "qty": 120,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 251.85,
+        "stop": 256.39,
+        "target": 240.78,
+        "exitFill": 244.73,
+        "pnl": 854.4000000000005,
+        "exitReason": "end of day",
+        "reason": "[gapfade] gap-up +2.0 ATR failed"
+      },
+      {
+        "symbol": "TTD",
+        "side": "short",
+        "qty": 2318,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 13.13,
+        "stop": 13.32,
+        "target": 12.19,
+        "exitFill": 12.19,
+        "pnl": 2178.920000000003,
+        "exitReason": "target",
+        "reason": "[gapfade] gap-up +2.8 ATR failed"
+      },
+      {
+        "symbol": "NVDA",
+        "side": "long",
+        "qty": 140,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 216.83,
+        "stop": 214.81,
+        "target": 221.49,
+        "exitFill": 214.771428,
+        "pnl": -288.2000800000037,
+        "exitReason": "stop",
+        "reason": "[gapfade] gap-down -0.9 ATR reclaimed"
+      },
+      {
+        "symbol": "OKTA",
+        "side": "short",
+        "qty": 159,
+        "status": "closed",
+        "strategyId": "hour1-strict",
+        "entryFill": 191.48,
+        "stop": 193.03,
+        "target": 188.73,
+        "exitFill": 193.11,
+        "pnl": -259.1700000000038,
+        "exitReason": "stop",
+        "reason": "[hour1-strict] hour1 breakout short, morning -1.8 ATR"
+      },
+      {
+        "symbol": "APP",
+        "side": "short",
+        "qty": 110,
+        "status": "closed",
+        "strategyId": "gapfade",
+        "entryFill": 275.890909,
+        "stop": 281.04,
+        "target": 262.28,
+        "exitFill": 265.43,
+        "pnl": 1150.6999900000017,
+        "exitReason": "end of day",
+        "reason": "[gapfade] gap-up +1.5 ATR failed"
+      },
+      {
+        "symbol": "F",
+        "side": "long",
+        "qty": 1893,
+        "status": "closed",
+        "strategyId": "hour1-strict",
+        "entryFill": 12.74,
+        "stop": 12.71,
+        "target": 12.83,
+        "exitFill": 12.71,
+        "pnl": -56.78999999999879,
+        "exitReason": "stop",
+        "reason": "[hour1-strict] hour1 breakout long, morning +0.7 ATR"
+      },
+      {
+        "symbol": "SEDG",
+        "side": "long",
+        "qty": 927,
+        "status": "closed",
+        "strategyId": "vwap",
+        "entryFill": 32.67,
+        "stop": 32.11,
+        "exitFill": 32.45,
+        "pnl": -203.93999999999895,
+        "exitReason": "closed below VWAP",
+        "reason": "[vwap] VWAP pullback long, day +0.6 ATR"
+      },
+      {
+        "symbol": "MSFT",
+        "side": "short",
+        "qty": 57,
+        "status": "closed",
+        "strategyId": "aft-trend-strict",
+        "entryFill": 525.31614,
+        "stop": 527.98,
+        "exitFill": 528.006842,
+        "pnl": -153.3700139999993,
+        "exitReason": "stop",
+        "reason": "[aft-trend-strict] afternoon LOD break -1.3 ATR"
+      },
+      {
+        "symbol": "SHOP",
+        "side": "short",
+        "qty": 180,
+        "status": "closed",
+        "strategyId": "aft-trend-strict",
+        "entryFill": 168.82,
+        "stop": 170.16,
+        "exitFill": 170.2,
+        "pnl": -248.39999999999918,
+        "exitReason": "stop",
+        "reason": "[aft-trend-strict] afternoon LOD break -1.4 ATR"
+      },
+      {
+        "symbol": "U",
+        "side": "short",
+        "qty": 751,
+        "status": "closed",
+        "strategyId": "aft-trend-strict",
+        "entryFill": 40.5,
+        "stop": 40.96,
+        "exitFill": 40.32,
+        "pnl": 135.17999999999978,
+        "exitReason": "end of day",
+        "reason": "[aft-trend-strict] afternoon LOD break -1.3 ATR"
+      },
+      {
+        "symbol": "MDB",
+        "side": "short",
+        "qty": 17,
+        "status": "closed",
+        "strategyId": "vwap",
+        "entryFill": 336,
+        "stop": 343.56,
+        "exitFill": 338.48,
+        "pnl": -42.16000000000031,
+        "exitReason": "closed above VWAP",
+        "reason": "[vwap] VWAP pullback short, day -1.1 ATR"
+      },
+      {
+        "symbol": "SOFI",
+        "side": "short",
+        "qty": 405,
+        "status": "closed",
+        "strategyId": "aft-trend-strict",
+        "entryFill": 14.41,
+        "stop": 14.52,
+        "exitFill": 14.52,
+        "pnl": -44.54999999999977,
+        "exitReason": "stop",
+        "reason": "[aft-trend-strict] afternoon LOD break -1.2 ATR"
+      },
+      {
+        "symbol": "PLTR",
+        "side": "short",
+        "qty": 31,
+        "status": "closed",
+        "strategyId": "late-strong",
+        "entryFill": 185.56129,
+        "stop": 187.25,
+        "exitFill": 186.146452,
+        "pnl": -18.140021999999902,
+        "exitReason": "end of day",
+        "reason": "[late-strong] late-day short, -2.6 ATR"
+      },
+      {
+        "symbol": "SNOW",
+        "side": "short",
+        "qty": 19,
+        "status": "closed",
+        "strategyId": "late-strong",
+        "entryFill": 306.74,
+        "stop": 310.83,
+        "exitFill": 306.78,
+        "pnl": -0.7599999999993088,
+        "exitReason": "end of day",
+        "reason": "[late-strong] late-day short, -2.4 ATR"
+      }
+    ]
+  },
+  "analysis": {
+    "day": "2026-10-16",
+    "headline": "2026-10-16: $7406.49 on 20 closed (9W/11L, 45% hit)",
+    "summary": "Realised $7406.49 across 20 closed paper day trades (9 winners / 11 losers, 45% hit rate). The book was short-biased. gapfade contributed the most ($7781.18). Session regime marker: risk-on.",
+    "regime": "risk-on",
+    "takeaways": [
+      "gapfade was the edge today ($7781.18). Protect that playbook; size down methods that bled.",
+      "Best fill: TTD $2178.92 (4.95R) — gap-up +2.8 ATR failed."
+    ],
+    "worked": [
+      "gapfade: 7/9 wins, $7781.18 — Carried the day — edge showed up in realised fills.",
+      "vwap: 1/3 wins, $271.31 — Net positive despite mixed hits."
+    ],
+    "struggled": [
+      "late-strong: 0/2 wins, -$18.90 — No winners — rule fired but follow-through failed.",
+      "aft-trend-strict: 1/4 wins, -$311.14 — Positive hit rate was not enough to offset losers.",
+      "hour1-strict: 0/2 wins, -$315.96 — No winners — rule fired but follow-through failed."
+    ],
+    "byStrategy": [
+      {
+        "strategy": "gapfade",
+        "trades": 9,
+        "wins": 7,
+        "pnl": 7781.179800000002,
+        "note": "Carried the day — edge showed up in realised fills."
+      },
+      {
+        "strategy": "vwap",
+        "trades": 3,
+        "wins": 1,
+        "pnl": 271.3093950000009,
+        "note": "Net positive despite mixed hits."
+      },
+      {
+        "strategy": "late-strong",
+        "trades": 2,
+        "wins": 0,
+        "pnl": -18.90002199999921,
+        "note": "No winners — rule fired but follow-through failed."
+      },
+      {
+        "strategy": "aft-trend-strict",
+        "trades": 4,
+        "wins": 1,
+        "pnl": -311.1400139999985,
+        "note": "Positive hit rate was not enough to offset losers."
+      },
+      {
+        "strategy": "hour1-strict",
+        "trades": 2,
+        "wins": 0,
+        "pnl": -315.9600000000026,
+        "note": "No winners — rule fired but follow-through failed."
+      }
+    ],
+    "trades": [
+      {
+        "symbol": "AVGO",
+        "side": "long",
+        "strategy": "gapfade",
+        "quantity": 87,
+        "entryPrice": 339.453794,
+        "exitPrice": 337.1,
+        "stop": 334.09,
+        "target": 346.34,
+        "pnl": -204.78007799999943,
+        "rMultiple": -0.4388300520116871,
+        "entryReason": "gap-down -0.8 ATR reclaimed",
+        "exitReason": "long · end of day",
+        "thesis": "Gap setup: gap-down -0.8 ATR reclaimed.",
+        "outcome": "Exited: long · end of day.",
+        "closedAt": 1792157720144
+      },
+      {
+        "symbol": "PINS",
+        "side": "long",
+        "strategy": "vwap",
+        "quantity": 1345,
+        "entryPrice": 22.260803,
+        "exitPrice": 22.645494,
+        "stop": 22.06,
+        "pnl": 517.4093950000001,
+        "rMultiple": 1.915763210708999,
+        "entryReason": "VWAP pullback long, day +0.8 ATR",
+        "exitReason": "long · end of day",
+        "thesis": "VWAP long: VWAP pullback long, day +0.8 ATR. Stock was strong vs the open and held above VWAP; bought the dip into VWAP.",
+        "outcome": "Exited: long · end of day.",
+        "closedAt": 1792157720259
+      },
+      {
+        "symbol": "PATH",
+        "side": "short",
+        "strategy": "gapfade",
+        "quantity": 2241,
+        "entryPrice": 13.57,
+        "exitPrice": 13.06,
+        "stop": 14.01,
+        "target": 13.07,
+        "pnl": 1142.9099999999996,
+        "rMultiple": 1.15909090909091,
+        "entryReason": "gap-up +1.6 ATR failed",
+        "exitReason": "short · target",
+        "thesis": "Gap setup: gap-up +1.6 ATR failed.",
+        "outcome": "Took the profit target before a full extension.",
+        "closedAt": 1792161320104
+      },
+      {
+        "symbol": "OKTA",
+        "side": "short",
+        "strategy": "hour1-strict",
+        "quantity": 159,
+        "entryPrice": 191.48,
+        "exitPrice": 193.11,
+        "stop": 193.03,
+        "target": 188.73,
+        "pnl": -259.1700000000038,
+        "rMultiple": -1.0516129032258144,
+        "entryReason": "hour1 breakout short, morning -1.8 ATR",
+        "exitReason": "short · stop",
+        "thesis": "First-hour short: hour1 breakout short, morning -1.8 ATR. Morning range broke lower after a weak open→10:30 tape — continuation short.",
+        "outcome": "Stopped out — sellers lost control and price reversed through the risk level.",
+        "closedAt": 1792161620138
+      },
+      {
+        "symbol": "F",
+        "side": "long",
+        "strategy": "hour1-strict",
+        "quantity": 1893,
+        "entryPrice": 12.74,
+        "exitPrice": 12.71,
+        "stop": 12.71,
+        "target": 12.83,
+        "pnl": -56.78999999999879,
+        "rMultiple": -1,
+        "entryReason": "hour1 breakout long, morning +0.7 ATR",
+        "exitReason": "long · stop",
+        "thesis": "First-hour long: hour1 breakout long, morning +0.7 ATR. Morning range broke higher after a strong open→10:30 tape — continuation long.",
+        "outcome": "Stopped out — buyers lost control and price reversed through the risk level.",
+        "closedAt": 1792164020107
+      },
+      {
+        "symbol": "SEDG",
+        "side": "long",
+        "strategy": "vwap",
+        "quantity": 927,
+        "entryPrice": 32.67,
+        "exitPrice": 32.45,
+        "stop": 32.11,
+        "pnl": -203.93999999999895,
+        "rMultiple": -0.3928571428571392,
+        "entryReason": "VWAP pullback long, day +0.6 ATR",
+        "exitReason": "long · closed below VWAP",
+        "thesis": "VWAP long: VWAP pullback long, day +0.6 ATR. Stock was strong vs the open and held above VWAP; bought the dip into VWAP.",
+        "outcome": "Long thesis invalidated when price closed back below VWAP.",
+        "closedAt": 1792166432022
+      },
+      {
+        "symbol": "MSFT",
+        "side": "short",
+        "strategy": "aft-trend-strict",
+        "quantity": 57,
+        "entryPrice": 525.31614,
+        "exitPrice": 528.006842,
+        "stop": 527.98,
+        "pnl": -153.3700139999993,
+        "rMultiple": -1.010076355364016,
+        "entryReason": "afternoon LOD break -1.3 ATR",
+        "exitReason": "short · stop",
+        "thesis": "afternoon LOD break -1.3 ATR",
+        "outcome": "Stopped out — sellers lost control and price reversed through the risk level.",
+        "closedAt": 1792172720108
+      },
+      {
+        "symbol": "NVDA",
+        "side": "long",
+        "strategy": "gapfade",
+        "quantity": 140,
+        "entryPrice": 216.83,
+        "exitPrice": 214.771428,
+        "stop": 214.81,
+        "target": 221.49,
+        "pnl": -288.2000800000037,
+        "rMultiple": -1.0190950495049584,
+        "entryReason": "gap-down -0.9 ATR reclaimed",
+        "exitReason": "long · stop",
+        "thesis": "Gap setup: gap-down -0.9 ATR reclaimed.",
+        "outcome": "Stopped out — buyers lost control and price reversed through the risk level.",
+        "closedAt": 1792173920221
+      },
+      {
+        "symbol": "SHOP",
+        "side": "short",
+        "strategy": "aft-trend-strict",
+        "quantity": 180,
+        "entryPrice": 168.82,
+        "exitPrice": 170.2,
+        "stop": 170.16,
+        "pnl": -248.39999999999918,
+        "rMultiple": -1.0298507462686508,
+        "entryReason": "afternoon LOD break -1.4 ATR",
+        "exitReason": "short · stop",
+        "thesis": "afternoon LOD break -1.4 ATR",
+        "outcome": "Stopped out — sellers lost control and price reversed through the risk level.",
+        "closedAt": 1792174520141
+      },
+      {
+        "symbol": "HIMS",
+        "side": "short",
+        "strategy": "gapfade",
+        "quantity": 1046,
+        "entryPrice": 29.099608,
+        "exitPrice": 27.7,
+        "stop": 30.07,
+        "target": 27.7,
+        "pnl": 1463.9899680000008,
+        "rMultiple": 1.4423119728934288,
+        "entryReason": "gap-up +1.2 ATR failed",
+        "exitReason": "short · target",
+        "thesis": "Gap setup: gap-up +1.2 ATR failed.",
+        "outcome": "Took the profit target before a full extension.",
+        "closedAt": 1792177220189
+      },
+      {
+        "symbol": "MDB",
+        "side": "short",
+        "strategy": "vwap",
+        "quantity": 17,
+        "entryPrice": 336,
+        "exitPrice": 338.48,
+        "stop": 343.56,
+        "pnl": -42.16000000000031,
+        "rMultiple": -0.32804232804233036,
+        "entryReason": "VWAP pullback short, day -1.1 ATR",
+        "exitReason": "short · closed above VWAP",
+        "thesis": "VWAP short: VWAP pullback short, day -1.1 ATR. Stock was weak vs the open and held below VWAP; shorted the bounce into VWAP.",
+        "outcome": "Short thesis invalidated when price closed back above VWAP (trend failed to hold).",
+        "closedAt": 1792178131372
+      },
+      {
+        "symbol": "SOFI",
+        "side": "short",
+        "strategy": "aft-trend-strict",
+        "quantity": 405,
+        "entryPrice": 14.41,
+        "exitPrice": 14.52,
+        "stop": 14.52,
+        "pnl": -44.54999999999977,
+        "rMultiple": -1,
+        "entryReason": "afternoon LOD break -1.2 ATR",
+        "exitReason": "short · stop",
+        "thesis": "afternoon LOD break -1.2 ATR",
+        "outcome": "Stopped out — sellers lost control and price reversed through the risk level.",
+        "closedAt": 1792179020111
+      },
+      {
+        "symbol": "TTD",
+        "side": "short",
+        "strategy": "gapfade",
+        "quantity": 2318,
+        "entryPrice": 13.13,
+        "exitPrice": 12.19,
+        "stop": 13.32,
+        "target": 12.19,
+        "pnl": 2178.920000000003,
+        "rMultiple": 4.947368421052651,
+        "entryReason": "gap-up +2.8 ATR failed",
+        "exitReason": "short · target",
+        "thesis": "Gap setup: gap-up +2.8 ATR failed.",
+        "outcome": "Hit the full profit target — thesis played out cleanly.",
+        "closedAt": 1792179920111
+      },
+      {
+        "symbol": "U",
+        "side": "short",
+        "strategy": "aft-trend-strict",
+        "quantity": 751,
+        "entryPrice": 40.5,
+        "exitPrice": 40.32,
+        "stop": 40.96,
+        "pnl": 135.17999999999978,
+        "rMultiple": 0.3913043478260856,
+        "entryReason": "afternoon LOD break -1.3 ATR",
+        "exitReason": "short · end of day",
+        "thesis": "afternoon LOD break -1.3 ATR",
+        "outcome": "Exited: short · end of day.",
+        "closedAt": 1792180540736
+      },
+      {
+        "symbol": "CRM",
+        "side": "short",
+        "strategy": "gapfade",
+        "quantity": 123,
+        "entryPrice": 246.34,
+        "exitPrice": 241.28,
+        "stop": 251.48,
+        "target": 236.03,
+        "pnl": 622.3800000000003,
+        "rMultiple": 0.9844357976653728,
+        "entryReason": "gap-up +1.9 ATR failed",
+        "exitReason": "short · end of day",
+        "thesis": "Gap setup: gap-up +1.9 ATR failed.",
+        "outcome": "Exited: short · end of day.",
+        "closedAt": 1792180541319
+      },
+      {
+        "symbol": "ADBE",
+        "side": "short",
+        "strategy": "gapfade",
+        "quantity": 120,
+        "entryPrice": 251.85,
+        "exitPrice": 244.73,
+        "stop": 256.39,
+        "target": 240.78,
+        "pnl": 854.4000000000005,
+        "rMultiple": 1.568281938325995,
+        "entryReason": "gap-up +2.0 ATR failed",
+        "exitReason": "short · end of day",
+        "thesis": "Gap setup: gap-up +2.0 ATR failed.",
+        "outcome": "Exited: short · end of day.",
+        "closedAt": 1792180541434
+      },
+      {
+        "symbol": "SNOW",
+        "side": "short",
+        "strategy": "late-strong",
+        "quantity": 19,
+        "entryPrice": 306.74,
+        "exitPrice": 306.78,
+        "stop": 310.83,
+        "pnl": -0.7599999999993088,
+        "rMultiple": -0.009779951100235664,
+        "entryReason": "late-day short, -2.4 ATR",
+        "exitReason": "short · end of day",
+        "thesis": "late-day short, -2.4 ATR",
+        "outcome": "Exited: short · end of day.",
+        "closedAt": 1792180542226
+      },
+      {
+        "symbol": "RBLX",
+        "side": "short",
+        "strategy": "gapfade",
+        "quantity": 602,
+        "entryPrice": 50.77,
+        "exitPrice": 49.34,
+        "stop": 51.77,
+        "target": 47.51,
+        "pnl": 860.8599999999998,
+        "rMultiple": 1.4299999999999997,
+        "entryReason": "gap-up +1.8 ATR failed",
+        "exitReason": "short · end of day",
+        "thesis": "Gap setup: gap-up +1.8 ATR failed.",
+        "outcome": "Exited: short · end of day.",
+        "closedAt": 1792180542695
+      },
+      {
+        "symbol": "PLTR",
+        "side": "short",
+        "strategy": "late-strong",
+        "quantity": 31,
+        "entryPrice": 185.56129,
+        "exitPrice": 186.146452,
+        "stop": 187.25,
+        "pnl": -18.140021999999902,
+        "rMultiple": -0.3465142031491503,
+        "entryReason": "late-day short, -2.6 ATR",
+        "exitReason": "short · end of day",
+        "thesis": "late-day short, -2.6 ATR",
+        "outcome": "Exited: short · end of day.",
+        "closedAt": 1792180544380
+      },
+      {
+        "symbol": "APP",
+        "side": "short",
+        "strategy": "gapfade",
+        "quantity": 110,
+        "entryPrice": 275.890909,
+        "exitPrice": 265.43,
+        "stop": 281.04,
+        "target": 262.28,
+        "pnl": 1150.6999900000017,
+        "rMultiple": 2.031603053820571,
+        "entryReason": "gap-up +1.5 ATR failed",
+        "exitReason": "short · end of day",
+        "thesis": "Gap setup: gap-up +1.5 ATR failed.",
+        "outcome": "Exited: short · end of day.",
+        "closedAt": 1792180547711
+      }
+    ],
+    "openAtSnapshot": [],
+    "playbook": [
+      {
+        "id": "gapfade",
+        "title": "Gap fade",
+        "rule": "Fade a gap ≥0.75 ATR once price reclaims back toward the prior close; stop beyond the extreme of the open."
+      },
+      {
+        "id": "vwap",
+        "title": "VWAP pullback",
+        "rule": "After the stock has moved ≥0.6 ATR from the open and held the correct side of VWAP ~80% of the morning, fade the first touch back to VWAP. Exit on a close back through VWAP."
+      },
+      {
+        "id": "hour1-strict",
+        "title": "First-hour range breakout",
+        "rule": "After 10:30 ET, if the open→10:30 move is ≥0.7 ATR, trade the first break of the morning high/low in that direction. Stop 0.15 ATR; target 2R."
+      }
+    ]
+  },
+  "meta": {
+    "mode": "paper",
+    "feed": "end-of-day snapshot",
+    "note": "Static GitHub Pages export — refreshed after the close, not live Alpaca. Includes post-close day analysis."
+  }
+}
